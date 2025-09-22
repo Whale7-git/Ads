@@ -3,21 +3,21 @@
 #!system=ios
 payload:
 # 广告 SDK 埋点 & 监控
-  - DOMAIN-SUFFIX,vs.biz.weibo.com,REJECT
-  - DOMAIN-SUFFIX,sdkclick.biz.weibo.com,REJECT
+  - DOMAIN-SUFFIX,vs.biz.weibo.com
+  - DOMAIN-SUFFIX,sdkclick.biz.weibo.com
   - DOMAIN-SUFFIX,sdkaction.biz.weibo.com
   - DOMAIN-SUFFIX,sdkmonitor.biz.weibo.com
 
   # 第三方广告/数据平台
   - DOMAIN-SUFFIX,mm3.365dmp.com
-  - DOMAIN-SUFFIX,ads.weibo.com,REJECT
-  - DOMAIN-SUFFIX,adapi.weibo.cn,REJECT
-  - DOMAIN-SUFFIX,adward.weibo.cn,REJECT
-  - DOMAIN-SUFFIX,media-ad.weibo.com,REJECT
-  - DOMAIN-SUFFIX,ads.sina.cn,REJECT
-  - DOMAIN-SUFFIX,tracking.sina.com.cn,REJECT
-  - DOMAIN-SUFFIX,clk.sina.com.cn,REJECT
-  - DOMAIN-SUFFIX,statistics.sina.com.cn,REJECT
+  - DOMAIN-SUFFIX,ads.weibo.com
+  - DOMAIN-SUFFIX,adapi.weibo.cn
+  - DOMAIN-SUFFIX,adward.weibo.cn
+  - DOMAIN-SUFFIX,media-ad.weibo.com
+  - DOMAIN-SUFFIX,ads.sina.cn
+  - DOMAIN-SUFFIX,tracking.sina.com.cn
+  - DOMAIN-SUFFIX,clk.sina.com.cn
+  - DOMAIN-SUFFIX,statistics.sina.com.cn
   # 广告屏蔽规则
   - DOMAIN-SUFFIX,v5-luna.douyinvod.com
   - DOMAIN-SUFFIX,open.e.kuaishou.cn
