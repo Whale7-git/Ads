@@ -3,6 +3,15 @@
 #!system=ios
 
 [Rule]
+
+DOMAIN-SUFFIX,ads.weibo.com,REJECT
+DOMAIN-SUFFIX,adapi.weibo.cn,REJECT
+DOMAIN-SUFFIX,adward.weibo.cn,REJECT
+DOMAIN-SUFFIX,media-ad.weibo.com,REJECT
+DOMAIN-SUFFIX,ads.sina.cn,REJECT
+DOMAIN-SUFFIX,tracking.sina.com.cn,REJECT
+DOMAIN-SUFFIX,clk.sina.com.cn,REJECT
+DOMAIN-SUFFIX,statistics.sina.com.cn,REJECT
 DOMAIN-SUFFIX,v5-luna.douyinvod.com,REJECT
 DOMAIN-SUFFIX,open.e.kuaishou.cn,REJECT
 DOMAIN-SUFFIX,p66-ad.adkwai.com,REJECT
