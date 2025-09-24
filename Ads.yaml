@@ -145,7 +145,6 @@ payload:
   - DOMAIN-SUFFIX,lbs.map.qq.com
   - DOMAIN-SUFFIX,bugly.qq.com
   - DOMAIN-SUFFIX,report.qq.com
-  - DOMAIN-SUFFIX,api.pinduoduo.com
   - DOMAIN-SUFFIX,tracking.pinduoduo.com
   - DOMAIN-SUFFIX,api-ad.toutiao.com
   - DOMAIN-SUFFIX,app-log.snssdk.com
