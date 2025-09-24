@@ -166,7 +166,7 @@ payload:
   - DOMAIN-KEYWORD,adlog
   - DOMAIN-KEYWORD,logbyte
   - DOMAIN-KEYWORD,log.snssdk.com
-  - DOMAIN-KEYWORD,api/ad
+#  - DOMAIN-KEYWORD,api/ad
   - DOMAIN-KEYWORD,pangolin
   - DOMAIN-KEYWORD,csfe
   - DOMAIN-KEYWORD,hotsoon
