@@ -8,6 +8,12 @@ payload:
   - DOMAIN-SUFFIX,sdkaction.biz.weibo.com
   - DOMAIN-SUFFIX,sdkmonitor.biz.weibo.com
 
+  - DOMAIN-SUFFIX,uve.weibo.com
+  - DOMAIN-SUFFIX,wbapp.uve.weibo.com
+  - DOMAIN-SUFFIX,wbclick.mobile.sina.cn
+  - DOMAIN-SUFFIX,sax.sina.com.cn
+  - DOMAIN-SUFFIX,adimg.mobile.sina.cn
+  - DOMAIN-SUFFIX,log.sina.cn
   # 第三方广告/数据平台
   - DOMAIN-SUFFIX,mm3.365dmp.com
   - DOMAIN-SUFFIX,ads.weibo.com
