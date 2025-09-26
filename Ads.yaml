@@ -7,7 +7,10 @@ payload:
   - DOMAIN-SUFFIX,sdkclick.biz.weibo.com
   - DOMAIN-SUFFIX,sdkaction.biz.weibo.com
   - DOMAIN-SUFFIX,sdkmonitor.biz.weibo.com
+# 微博广告接口拦截
 
+  - DOMAIN-SUFFIX,bootpreload.uve.weibo.com
+  - DOMAIN-SUFFIX,preload-click.uve.weibo.com
   - DOMAIN-SUFFIX,uve.weibo.com
   - DOMAIN-SUFFIX,wbapp.uve.weibo.com
   - DOMAIN-SUFFIX,wbclick.mobile.sina.cn
