@@ -158,7 +158,7 @@ payload:
   - DOMAIN-SUFFIX,api-ad.toutiao.com
   - DOMAIN-SUFFIX,app-log.snssdk.com
   - DOMAIN-SUFFIX,ads.union.jd.com
-  - DOMAIN-SUFFIX,ms.jr.jd.com
+#  - DOMAIN-SUFFIX,ms.jr.jd.com
   - DOMAIN-SUFFIX,pos.baidu.com
   - DOMAIN-SUFFIX,talkingdata.com
   - DOMAIN-SUFFIX,umeng.com
