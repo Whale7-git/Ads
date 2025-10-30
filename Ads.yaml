@@ -5,7 +5,27 @@ payload:
   - DOMAIN-SUFFIX,sdkclick.biz.weibo.com
   - DOMAIN-SUFFIX,sdkaction.biz.weibo.com
   - DOMAIN-SUFFIX,sdkmonitor.biz.weibo.com
+# —— 阿里埋点分析域名（可安全屏蔽）——
+  - DOMAIN-SUFFIX,app-analytics-services.com
 
+  # —— 燃峰广告聚合 SDK —— #
+  - DOMAIN-SUFFIX,ranfenghd.com
+  - DOMAIN-SUFFIX,ads-sdk-api.ranfenghd.com
+  - DOMAIN-SUFFIX,adssp.ranfenghd.com
+
+  # —— 燃峰广告 SDK（优酷/芒果TV 等 App 嵌入广告源）——
+  - DOMAIN-SUFFIX,ads-sdk-api.ranfenghd.com
+
+  # —— 阿里/神马广告日志上报接口 —— #
+  - DOMAIN-SUFFIX,sdk-log.partner.sm.cn
+
+  # —— 1sapp 广告 SDK —— #
+  - DOMAIN-SUFFIX,show-api.1sapp.com
+
+  # —— 优酷启动广告补丁（Stash 版，安全过滤）——
+  # —— 神马 SSP 广告接口 —— #
+  - DOMAIN-SUFFIX,hc-ssp.sm.cn
+  - URL-REGEX,^https?:\/\/hc-ssp\.sm\.cn\/
   # —— 阿里埋点分析域名（可安全屏蔽）——
   - DOMAIN-SUFFIX,app-analytics-services.com
 
