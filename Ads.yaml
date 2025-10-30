@@ -7,6 +7,25 @@ payload:
   - DOMAIN-SUFFIX,sdkclick.biz.weibo.com
   - DOMAIN-SUFFIX,sdkaction.biz.weibo.com
   - DOMAIN-SUFFIX,sdkmonitor.biz.weibo.com
+# —— 优酷启动广告补丁（Stash 版，安全过滤）——
+  - DOMAIN-SUFFIX,ad.mobile.youku.com
+  - DOMAIN-SUFFIX,ads.youku.com
+  - DOMAIN-SUFFIX,yk-ssp.ad.youku.com
+  - DOMAIN-SUFFIX,ykad-data.youku.com
+  - DOMAIN-SUFFIX,ad.api.mobile.youku.com
+  - DOMAIN-SUFFIX,adp.atm.youku.com
+  - DOMAIN-SUFFIX,bsv.atm.youku.com
+  - DOMAIN-SUFFIX,ipm.atm.youku.com
+  - DOMAIN-SUFFIX,m.atm.youku.com
+  - DOMAIN-SUFFIX,mf.atm.youku.com
+  - DOMAIN-SUFFIX,v2html.atm.youku.com
+  - DOMAIN-SUFFIX,e.stat.ykimg.com
+  - DOMAIN-SUFFIX,stat.youku.com
+# ——可选测试拦截（如播放异常可放行）——
+# - DOMAIN-SUFFIX,ups.youku.com
+# - DOMAIN-SUFFIX,launch.youku.com
+# - DOMAIN-SUFFIX,init.youku.com
+
 # 微博广告接口拦截
 
   - DOMAIN-SUFFIX,bootpreload.uve.weibo.com
