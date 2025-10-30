@@ -13,6 +13,8 @@ payload:
   - DOMAIN-SUFFIX,ads-sdk-api.ranfenghd.com
 # —— 阿里/神马广告日志上报接口 —— #
   - DOMAIN-SUFFIX,sdk-log.partner.sm.cn
+# —— 1sapp 广告 SDK —— #
+  - DOMAIN-SUFFIX,show-api.1sapp.com
 # —— 优酷启动广告补丁（Stash 版，安全过滤）——
 # —— 神马广告平台接口（优酷/UC/神马广告源）——
   - DOMAIN-SUFFIX,hc-ssp.sm.cn
