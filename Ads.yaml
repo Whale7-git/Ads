@@ -16,8 +16,9 @@ payload:
 # —— 1sapp 广告 SDK —— #
   - DOMAIN-SUFFIX,show-api.1sapp.com
 # —— 优酷启动广告补丁（Stash 版，安全过滤）——
-# —— 神马广告平台接口（优酷/UC/神马广告源）——
+# —— 神马 SSP 广告接口 —— #
   - DOMAIN-SUFFIX,hc-ssp.sm.cn
+# —— 神马广告平台接口（优酷/UC/神马广告源）——
   - DOMAIN-SUFFIX,ad.mobile.youku.com
   - DOMAIN-SUFFIX,ads.youku.com
   - DOMAIN-SUFFIX,yk-ssp.ad.youku.com
