@@ -1,4 +1,4 @@
-name=广告屏蔽规则
+
 #!desc=屏蔽酷狗、汽水音乐、字节系、快手等开屏广告
 #!system=ios
 payload:
