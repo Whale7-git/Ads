@@ -1,0 +1,18 @@
+{
+  "sites": [],
+  "lives": [
+    {
+      "name": "IPTV优选",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/Whale7-git/Ads/main/iptv/output/iptv.m3u",
+      "playerType": 1,
+      "epg": "http://epg.51zmt.top:8000/e.xml",
+      "logo": "",
+      "ua": ""
+    }
+  ],
+  "parses": [],
+  "flags": [],
+  "wallpaper": "",
+  "warning": "直播源每日自动刷新, 本次 768 条 / 642 个频道"
+}

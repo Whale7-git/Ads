@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 """IPTV 源实测优选: 拉取多个公开源 -> 合并去重 -> 并发实测 -> 每频道保留最快N条 -> 输出 m3u/txt"""
+import json
 import os
 import re
 import sys
@@ -231,7 +232,8 @@ def main():
             if g != lastg:
                 f.write(f"\n# {g}\n")
                 lastg = g
-            f.write(f'#EXTINF:-1 group-title="{g}",{it["disp"]} [{it["ms"]}ms]\n{it["url"]}\n')
+            ua = f' http-user-agent="{it["ua"]}"' if it.get("ua") else ""
+            f.write(f'#EXTINF:-1 group-title="{g}"{ua},{it["disp"]} [{it["ms"]}ms]\n{it["url"]}\n')
 
     # 输出 txt
     txt_path = os.path.join(OUT, "iptv.txt")
@@ -265,6 +267,27 @@ def main():
         lines.append(f"| {g} | {c} |")
     with open(os.path.join(OUT, "report.md"), "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
+
+    # 输出 TVBox 配置: TVBox 的"配置地址"只认 JSON, 不认 m3u
+    raw_base = "https://raw.githubusercontent.com/Whale7-git/Ads/main/iptv/output"
+    cfg = {
+        "sites": [],
+        "lives": [{
+            "name": "IPTV优选",
+            "type": 0,
+            "url": f"{raw_base}/iptv.m3u",
+            "playerType": 1,
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "logo": "",
+            "ua": "",
+        }],
+        "parses": [],
+        "flags": [],
+        "wallpaper": "",
+        "warning": f"直播源每日自动刷新, 本次 {len(picked)} 条 / {len(by_key)} 个频道",
+    }
+    with open(os.path.join(OUT, "tvbox.json"), "w", encoding="utf-8") as f:
+        json.dump(cfg, f, ensure_ascii=False, indent=2)
 
     print(f"[完成] 频道 {len(by_key)} 个, 收录 {len(picked)} 条 -> {m3u_path}")
     for g, c in sorted(groups.items(), key=lambda x: -x[1])[:12]:
