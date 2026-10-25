@@ -222,7 +222,7 @@ def main():
     picked.sort(key=lambda x: (x["cgroup"], x["norm"], x["ms"]))
 
     # 输出 m3u
-    m3u_path = os.path.join(OUT, "优选.m3u")
+    m3u_path = os.path.join(OUT, "iptv.m3u")
     with open(m3u_path, "w", encoding="utf-8") as f:
         f.write('#EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml"\n')
         lastg = None
@@ -234,7 +234,7 @@ def main():
             f.write(f'#EXTINF:-1 group-title="{g}",{it["disp"]} [{it["ms"]}ms]\n{it["url"]}\n')
 
     # 输出 txt
-    txt_path = os.path.join(OUT, "优选.txt")
+    txt_path = os.path.join(OUT, "iptv.txt")
     with open(txt_path, "w", encoding="utf-8") as f:
         lastg = None
         for it in picked:
@@ -263,7 +263,7 @@ def main():
     ]
     for g, c in sorted(groups.items(), key=lambda x: -x[1]):
         lines.append(f"| {g} | {c} |")
-    with open(os.path.join(OUT, "报告.md"), "w", encoding="utf-8") as f:
+    with open(os.path.join(OUT, "report.md"), "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
 
     print(f"[完成] 频道 {len(by_key)} 个, 收录 {len(picked)} 条 -> {m3u_path}")
