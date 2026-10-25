@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 """IPTV 源实测优选: 拉取多个公开源 -> 合并去重 -> 并发实测 -> 每频道保留最快N条 -> 输出 m3u/txt"""
+import argparse
 import json
 import os
 import re
@@ -10,6 +11,7 @@ import urllib.error
 import ssl
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from collections import defaultdict
+from urllib.parse import urljoin
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(BASE, "output")
@@ -26,6 +28,8 @@ UA_DEFAULT = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
 TIMEOUT = 4
 KEEP_PER_CHANNEL = 3
 WORKERS = 80
+DEEP_TIMEOUT = 6
+DEEP_WORKERS = 40
 
 ctx = ssl.create_default_context()
 ctx.check_hostname = False
@@ -168,7 +172,80 @@ def probe(item):
         return item
 
 
+def _http_get(url, ua, rng=None, timeout=DEEP_TIMEOUT, max_bytes=262144):
+    """有界读取: 裸 TS 直播流会无限推送, 必须限制读取字节数, 否则永久阻塞"""
+    h = {"User-Agent": ua or UA_DEFAULT, "Accept": "*/*"}
+    if rng:
+        h["Range"] = rng
+    req = urllib.request.Request(url, headers=h)
+    with urllib.request.urlopen(req, timeout=timeout, context=ctx) as r:
+        return r.status, r.read(max_bytes), (r.headers.get("Content-Type") or "")
+
+
+def _first_uri(playlist_text):
+    """取播放列表里第一条非注释行(变体或分片地址)"""
+    for line in playlist_text.splitlines():
+        s = line.strip()
+        if s and not s.startswith("#"):
+            return s
+    return ""
+
+
+def deep_check(item):
+    """分片级校验: 顺着 m3u8 取到真实视频分片, 能拿到二进制数据才算可播"""
+    cur = item["url"]
+    ua = item.get("ua") or UA_DEFAULT
+    try:
+        st, body, ct = _http_get(cur, ua, max_bytes=131072)
+        if st not in (200, 206):
+            item.update(deep_ok=False, deep_reason=f"playlist-http{st}")
+            return item
+        text = body.decode("utf-8", "ignore")
+
+        # master -> variant 最多下钻两层
+        for _ in range(2):
+            if "#EXT-X-STREAM-INF" not in text:
+                break
+            nxt = _first_uri(text)
+            if not nxt:
+                break
+            cur = urljoin(cur, nxt)
+            st, body, ct = _http_get(cur, ua, max_bytes=131072)
+            if st not in (200, 206):
+                item.update(deep_ok=False, deep_reason=f"variant-http{st}")
+                return item
+            text = body.decode("utf-8", "ignore")
+
+        # media playlist -> 首个分片
+        if "#EXTINF" in text:
+            seg = _first_uri(text)
+            if seg:
+                cur = urljoin(cur, seg)
+
+        st, seg_body, seg_ct = _http_get(cur, ua, rng="bytes=0-262144")
+        if st not in (200, 206):
+            item.update(deep_ok=False, deep_reason=f"seg-http{st}")
+            return item
+        if len(seg_body) < 1024:
+            item.update(deep_ok=False, deep_reason=f"seg-tiny({len(seg_body)}B)")
+            return item
+        head = seg_body[:512].lower()
+        if b"<html" in head or b"<xml" in head:
+            item.update(deep_ok=False, deep_reason="seg-is-html")
+            return item
+        item.update(deep_ok=True, deep_reason="", seg_bytes=len(seg_body))
+        return item
+    except Exception as e:
+        item.update(deep_ok=False, deep_reason=type(e).__name__)
+        return item
+
+
 def main():
+    ap = argparse.ArgumentParser(description="IPTV 源实测优选")
+    ap.add_argument("--deep", action="store_true",
+                    help="对存活源做分片级深度校验, 剔除索引通但分片死的假活源")
+    args = ap.parse_args()
+
     all_items = []
     for tag, url in SOURCES:
         try:
@@ -203,6 +280,21 @@ def main():
 
     alive = [r for r in results if r["ok"]]
     print(f"[实测] 存活 {len(alive)} / {len(results)} ({len(alive)*100//max(1,len(results))}%)")
+
+    if args.deep:
+        print(f"[深度] 对 {len(alive)} 条做分片级校验...")
+        d_done = 0
+        with ThreadPoolExecutor(max_workers=DEEP_WORKERS) as ex:
+            futs = [ex.submit(deep_check, it) for it in alive]
+            for f in as_completed(futs):
+                f.result()
+                d_done += 1
+                if d_done % 200 == 0:
+                    print(f"  ...深度 {d_done}/{len(alive)}")
+        passed = [it for it in alive if it.get("deep_ok")]
+        print(f"[深度] 分片校验通过 {len(passed)} / {len(alive)}"
+              f" (剔除 {len(alive)-len(passed)} 条假活源)")
+        alive = passed
 
     # 按归一化频道名聚合, 保留最快的 N 条
     by_key = defaultdict(list)
@@ -255,7 +347,8 @@ def main():
         "",
         f"- 生成时间: {time.strftime('%Y-%m-%d %H:%M:%S')}",
         f"- 总候选: {len(uniq)} 条（去重后）",
-        f"- 实测存活: {len(alive)} 条 ({len(alive)*100//max(1,len(results))}%)",
+        f"- 实测存活: {len(alive)} 条 ({len(alive)*100//max(1,len(results))}%)"
+        + (f"（已分片级校验）" if args.deep else ""),
         f"- 最终收录: {len(picked)} 条 / {len(by_key)} 个频道（每频道最多 {KEEP_PER_CHANNEL} 条，按延迟排序）",
         "",
         "## 分组分布",

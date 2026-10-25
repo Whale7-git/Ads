@@ -5,6 +5,11 @@ on:
     # 每天 UTC 00:00 = 北京时间 08:00
     - cron: "0 0 * * *"
   workflow_dispatch:
+    inputs:
+      deep:
+        description: "启用分片级深度校验（多花几分钟，能剔除索引通但分片死的假活源）"
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -16,7 +21,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
 
     steps:
       - name: 检出仓库
@@ -28,7 +33,14 @@ jobs:
           python-version: "3.12"
 
       - name: 采集并实测优选
-        run: python iptv/filter_iptv.py
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.deep }}" = "true" ]; then
+            echo "模式: 深度校验"
+            python iptv/filter_iptv.py --deep
+          else
+            echo "模式: 快速"
+            python iptv/filter_iptv.py
+          fi
 
       - name: 提交更新
         run: |
