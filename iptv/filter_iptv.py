@@ -235,6 +235,9 @@ def deep_check(item):
             return item
         item.update(deep_ok=True, deep_reason="", seg_bytes=len(seg_body))
         return item
+    except urllib.error.HTTPError as e:
+        item.update(deep_ok=False, deep_reason=f"http{e.code}")
+        return item
     except Exception as e:
         item.update(deep_ok=False, deep_reason=type(e).__name__)
         return item
