@@ -21,6 +21,9 @@ SOURCES = [
     ("suxuang", "https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u"),
     ("vbskycn", "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt"),
     ("iptv-org", "https://iptv-org.github.io/iptv/countries/cn.m3u"),
+    ("zbds", "https://live.zbds.top/tv/iptv4.txt"),
+    # iptv-api 的 ipv6 产物里绝大多数是双栈域名, 无 IPv6 也能用; 纯 IPv6 字面量的源(如 fanmingming ipv6)不要加
+    ("guovin", "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv6/result.m3u"),
 ]
 
 UA_DEFAULT = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -243,6 +246,18 @@ def deep_check(item):
         return item
 
 
+META_GROUP_KEYS = ("更新时间", "公告", "关于本源", "声明")
+
+
+def is_meta_item(name, group):
+    """过滤掉"更新时间""公告"这类伪频道"""
+    if any(k in (group or "") for k in META_GROUP_KEYS):
+        return True
+    if re.match(r"^\d{4}[-/年]\d{1,2}[-/月]\d{1,2}", (name or "").strip()):
+        return True
+    return False
+
+
 def main():
     ap = argparse.ArgumentParser(description="IPTV 源实测优选")
     ap.add_argument("--deep", action="store_true",
@@ -254,7 +269,11 @@ def main():
         try:
             txt = fetch(url)
             its = parse_m3u(txt, tag) if url.endswith(".m3u") else parse_txt(txt, tag)
-            print(f"[源] {tag:10s} 解析 {len(its):5d} 条")
+            before = len(its)
+            its = [it for it in its if not is_meta_item(it["name"], it["group"])]
+            dropped = before - len(its)
+            print(f"[源] {tag:10s} 解析 {len(its):5d} 条"
+                  + (f" (滤除元信息 {dropped})" if dropped else ""))
             all_items.extend(its)
         except Exception as e:
             print(f"[源] {tag:10s} 拉取失败: {e}")
