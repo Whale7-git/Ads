@@ -1,1247 +1,1179 @@
 #EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml"
 
 # 4K频道
-#EXTINF:-1 group-title="4K频道",CCTV4K [694ms]
+#EXTINF:-1 group-title="4K频道",CCTV4K [771ms]
 http://vip1.xinketongxun.fun:8082/tsfile/live/1026_1.m3u8
-#EXTINF:-1 group-title="4K频道",南国都市4K [1668ms]
+#EXTINF:-1 group-title="4K频道",南国都市4K [1720ms]
 https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=550af55c0ea34ce492748481415b6dfa&txTime=1903e7b17de
-#EXTINF:-1 group-title="4K频道",河北4K [3593ms]
+#EXTINF:-1 group-title="4K频道",河北4K [2375ms]
 https://event.pull.hebtv.com:443/live/live101.m3u8
-#EXTINF:-1 group-title="4K频道",苏州4K [967ms]
+#EXTINF:-1 group-title="4K频道",河北卫视 [2801ms]
+http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8
+#EXTINF:-1 group-title="4K频道",苏州4K [660ms]
 https://live-auth.51kandianshi.com/szgd/csztv4k_hd.m3u8
-#EXTINF:-1 group-title="4K频道",苏州4K [1638ms]
+#EXTINF:-1 group-title="4K频道",苏州4K [4605ms]
 https://tylive.kan0512.com/norecord/csztv4k_4k.m3u8
 
 # APTV专享
-#EXTINF:-1 group-title="APTV专享",CGTN [321ms]
+#EXTINF:-1 group-title="APTV专享",CGTN [242ms]
 https://0472.org/hls/cgtn.m3u8
-#EXTINF:-1 group-title="APTV专享",CGTN [602ms]
+#EXTINF:-1 group-title="APTV专享",CGTN [427ms]
 http://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
-#EXTINF:-1 group-title="APTV专享",CGTN纪录 [327ms]
+#EXTINF:-1 group-title="APTV专享",CGTN纪录 [240ms]
 https://0472.org/hls/cgtnd.m3u8
-#EXTINF:-1 group-title="APTV专享",CGTN纪录 [919ms]
+#EXTINF:-1 group-title="APTV专享",CGTN纪录 [922ms]
 https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
 
-# 体育
-#EXTINF:-1 group-title="体育",精品体育 [178ms]
-https://epg.pw/stream/94ed0232b61ce8d89883160a4cdfbfc8f3225cae70ef8e17d93eec249a3c8ad6.m3u8
-#EXTINF:-1 group-title="体育",精品体育 [180ms]
-https://epg.pw/stream/866a097a0907c9832440f8df38272dd555abf05200dfbafcc137e214c9b30ca7.m3u8
-#EXTINF:-1 group-title="体育",精品体育 [319ms]
-https://epg.pw/stream/f7556eccd4ae06b0c2991fdc7a4f8388496559f728cc82459a8e50346040e226.m3u8
-#EXTINF:-1 group-title="体育",纬来体育 [167ms]
-https://epg.pw/stream/ab6df63b64d0cc44a1f4f029ed847a26fa54a7aebd455578fb05a63f02c22f4b.m3u8
-#EXTINF:-1 group-title="体育",纬来体育 [294ms]
-https://epg.pw/stream/4f18dfe0593db5c686eb64ae8edaf2a9202d4d46bdc9bbde2cee27708e12ea01.m3u8
-#EXTINF:-1 group-title="体育",纬来体育 [304ms]
-https://epg.pw/stream/8855a9936e37e608a0ec8a014cce1673dee9c5d68d560da376cc92e5edef2b25.m3u8
-#EXTINF:-1 group-title="体育",足球频道 [176ms]
-https://epg.pw/stream/c7df950876e6a1ceb8be74ee86f9f702cebbbae29f1d15124ef8f86fd43161cf.m3u8
+# Travel
+#EXTINF:-1 group-title="Travel",Yichang Sanxia Travel & Life Channel [2631ms]
+https://liveplay.ycrmt.cn/sxgd/lysh.m3u8
 
 # 其他
-#EXTINF:-1 group-title="其他",Anhui TV [1437ms]
+#EXTINF:-1 group-title="其他",Anhui TV [875ms]
 https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130.m3u8
-#EXTINF:-1 group-title="其他",Bread TV (720p) [733ms]
+#EXTINF:-1 group-title="其他",Bread TV (720p) [822ms]
 https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
-#EXTINF:-1 group-title="其他",Guangdong Satellite TV [171ms]
+#EXTINF:-1 group-title="其他",Guangdong Satellite TV [243ms]
 https://h5cul1yar48um3t.wcetv.com/hls/gdsatellite.m3u8
-#EXTINF:-1 group-title="其他" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",Nei Monggol TV (960p) [1577ms]
+#EXTINF:-1 group-title="其他",Hunan TV (2160p) [1201ms]
+http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
+#EXTINF:-1 group-title="其他" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",Nei Monggol TV (960p) [1658ms]
 https://cdn4.skygo.mn/live/disk1/NeigMGL/HLSv3-FTA/NeigMGL.m3u8
-#EXTINF:-1 group-title="其他",VoA TV China (1080p) [338ms]
+#EXTINF:-1 group-title="其他",VoA TV China (1080p) [195ms]
 https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8
-#EXTINF:-1 group-title="其他",Xinjiang TV 8 [1470ms]
+#EXTINF:-1 group-title="其他",Xinjiang TV 8 [636ms]
 http://120.70.60.179:9901/tsfile/live/1002_1.m3u8?authid=0&key=txiptv&playlive=1
-#EXTINF:-1 group-title="其他",Xizang TV Tibetan [2258ms]
+#EXTINF:-1 group-title="其他",Xizang TV Chinese [1322ms]
+https://pili-live-hls-zdzz-tv.zzxwcm.cn/zdzz-tv/nqzh.m3u8
+#EXTINF:-1 group-title="其他",Xizang TV Tibetan [2895ms]
 https://live.vtibet.cn/live/ZYWS20261016.stream.m3u8
-#EXTINF:-1 group-title="其他",Zhejiang International Channel [600ms]
+#EXTINF:-1 group-title="其他",Zhejiang International Channel [665ms]
 https://ali-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8
 
-# 北京频道
-#EXTINF:-1 group-title="北京频道",中华特产 [527ms]
-http://120.76.248.139/live/bfgd/4200000158.m3u8
-#EXTINF:-1 group-title="北京频道",四海钓鱼 [569ms]
-http://120.76.248.139/live/bfgd/4200000229.m3u8
-#EXTINF:-1 group-title="北京频道",环球旅游 [553ms]
-http://120.76.248.139/live/bfgd/4200000147.m3u8
-
 # 卫视频道
-#EXTINF:-1 group-title="卫视频道",东南卫视 [861ms]
-http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
-#EXTINF:-1 group-title="卫视频道" http-user-agent="AptvPlayer-UA",东方卫视 [512ms]
+#EXTINF:-1 group-title="卫视频道" http-user-agent="AptvPlayer-UA",东方卫视 [733ms]
 http://bp-resource-dfl.bestv.cn/155/3/video.m3u8
-#EXTINF:-1 group-title="卫视频道" http-user-agent="aliplayer",东方卫视 [858ms]
+#EXTINF:-1 group-title="卫视频道" http-user-agent="aliplayer",东方卫视 [1087ms]
 http://bp-resource-dfl.bestv.cn/148/3/video.m3u8
-#EXTINF:-1 group-title="卫视频道",东方卫视4K [751ms]
-https://bp-resource-dfl.bestv.cn/148/3/video.m3u8
-#EXTINF:-1 group-title="卫视频道",内蒙古卫视 [439ms]
-http://120.76.248.139/live/bfgd/4200000110.m3u8
-#EXTINF:-1 group-title="卫视频道",内蒙古卫视 [1095ms]
-http://play1-qk.nmtv.cn/live/1769652018126032.m3u8
-#EXTINF:-1 group-title="卫视频道",农林卫视 [426ms]
-http://120.76.248.139/live/bfgd/4200000122.m3u8
-#EXTINF:-1 group-title="卫视频道",天津卫视 [538ms]
-http://222.169.85.8:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="卫视频道",宁夏卫视 [430ms]
-http://120.76.248.139/live/bfgd/4200000118.m3u8
-#EXTINF:-1 group-title="卫视频道",安多卫视 [3270ms]
-https://liveout.xntv.tv/a65jur/96iln2.m3u8
-#EXTINF:-1 group-title="卫视频道",山东卫视 [456ms]
-http://125.43.249.76:9901/tsfile/live/1023_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="卫视频道",山东教育 [1734ms]
+#EXTINF:-1 group-title="卫视频道",山东教育 [3319ms]
 https://test1.live.sdetv.com.cn/live/dianshizhibo/playlist.m3u8
-#EXTINF:-1 group-title="卫视频道",山西卫视 [690ms]
-http://119.39.9.8:9901/tsfile/live/0118_1.m3u8
-#EXTINF:-1 group-title="卫视频道",广东卫视 [159ms]
-https://txmov2.a.kwimgs.com/upic/2023/01/26/09/BMjAyMzAxMjYwOTE3NDVfNzM5MzQzNzIyXzk0NjI1OTUwNTA3XzBfMw==_b_B81ddda927d33445d544befd008e60109.mp4
-#EXTINF:-1 group-title="卫视频道",广东卫视 [506ms]
-http://222.169.85.8:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="卫视频道",延边卫视 [453ms]
-http://120.76.248.139/live/bfgd/4200000117.m3u8
-#EXTINF:-1 group-title="卫视频道",延边卫视 [1125ms]
-https://srs.iyb983.cn/video/CYS/index.m3u8
-#EXTINF:-1 group-title="卫视频道",延边卫视 [1135ms]
-https://srs.iyb983.cn:443/video/CYS/index.m3u8
-#EXTINF:-1 group-title="卫视频道",新疆卫视 [608ms]
-http://218.84.12.186:8001/hls/main/playlist.m3u8?zxinjd;http://218.84.12.186:8001/hls/main/playlist.m3u8zxinjd
-#EXTINF:-1 group-title="卫视频道",江西卫视 [351ms]
-http://112.27.5.218:9901/tsfile/live/faacts/0138_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="卫视频道",河北卫视 [443ms]
-http://120.76.248.139/live/bfgd/4200000108.m3u8
-#EXTINF:-1 group-title="卫视频道",河北卫视 [2624ms]
-http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8
-#EXTINF:-1 group-title="卫视频道",浙江卫视 [538ms]
-http://ali-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8
-#EXTINF:-1 group-title="卫视频道",浙江卫视 [546ms]
-http://ali-m-l.cztv.com:80/channels/lantian/channel001/1080p.m3u8
-#EXTINF:-1 group-title="卫视频道",浙江卫视 [706ms]
-https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
-#EXTINF:-1 group-title="卫视频道",海南卫视 [436ms]
-http://120.76.248.139/live/bfgd/4200000473.m3u8
-#EXTINF:-1 group-title="卫视频道",深圳卫视 [4495ms]
-http://gmxw.7766.org:808/hls/45/index.m3u8
-#EXTINF:-1 group-title="卫视频道",湖南卫视 [146ms]
-https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8
-#EXTINF:-1 group-title="卫视频道",湖南卫视 [1207ms]
-http://www.yao87.com:4022/udp/239.76.246.101:1234
-#EXTINF:-1 group-title="卫视频道",湖南卫视 [1354ms]
-http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
-#EXTINF:-1 group-title="卫视频道",甘肃卫视 [441ms]
-http://218.13.170.98:9901/tsfile/live/0141_1.m3u8
-#EXTINF:-1 group-title="卫视频道",西藏卫视 [363ms]
-http://112.27.5.218:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="卫视频道",辽宁卫视 [1844ms]
-http://61.136.172.236:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="卫视频道",香港卫视 [708ms]
+#EXTINF:-1 group-title="卫视频道",延边卫视 [1256ms]
+http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8#
+#EXTINF:-1 group-title="卫视频道",香港卫视 [879ms]
 http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8
-#EXTINF:-1 group-title="卫视频道",黑龙江卫视 [2099ms]
-http://61.136.172.236:9901/tsfile/live/0143_1.m3u8?key=txiptv&playlive=1&authid=0
 
 # 四川频道
-#EXTINF:-1 group-title="四川频道",乐至综合 [449ms]
+#EXTINF:-1 group-title="四川频道",乐至综合 [523ms]
 http://175.155.106.72:89/live1/live1.m3u8?zsicd
-#EXTINF:-1 group-title="四川频道",荥经综合 [1525ms]
+#EXTINF:-1 group-title="四川频道",广安公共 [547ms]
+http://live1.gatv.com.cn:85/live/GGPD_ggpdzm.m3u8
+#EXTINF:-1 group-title="四川频道",广安公共 [564ms]
+http://live1.gatv.com.cn:85/live/GGPD.m3u8
+#EXTINF:-1 group-title="四川频道",旺苍新闻综合 [722ms]
+http://live.spccmc.com:90/live/spxwzh.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
+#EXTINF:-1 group-title="四川频道",松潘新闻综合 [662ms]
+http://live.spccmc.com:90/live/spxwzh.m3u8
+#EXTINF:-1 group-title="四川频道",松潘新闻综合 [2386ms]
+http://live.spccmc.com:90/live/spxwzh.m3u8?zsicd
+#EXTINF:-1 group-title="四川频道",汶川新闻综合 [498ms]
+http://live.iwcmt.cn:90/live/zhxw.m3u8?zsicd
+#EXTINF:-1 group-title="四川频道",汶川新闻综合 [565ms]
+http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8?zsicd#rtmp://tv.mcrm.org.cn:1935/channellive/tv01
+#EXTINF:-1 group-title="四川频道",汶川新闻综合 [877ms]
+http://live.iwcmt.cn:90/live/zhxw.m3u8
+#EXTINF:-1 group-title="四川频道",沐川综合 [563ms]
+http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8?zsicd
+#EXTINF:-1 group-title="四川频道",荥经综合 [1968ms]
 https://m3u8channel-yj.yunxya.com/nmip-media/channellive/channel101140/playlist.m3u8
-#EXTINF:-1 group-title="四川频道",金川乡村 [658ms]
+#EXTINF:-1 group-title="四川频道",金川乡村 [1449ms]
 http://live.jinchuanrmt.com:90/live/jcxc.m3u8?zsicd
-#EXTINF:-1 group-title="四川频道",雅安新闻综合 [1547ms]
+#EXTINF:-1 group-title="四川频道",金川新闻综合 [660ms]
+http://live.jinchuanrmt.com:90/live/zhxw.m3u8?zsicd
+#EXTINF:-1 group-title="四川频道",雅安新闻综合 [3398ms]
 https://play.yunxya.com/channellive/xinwen.m3u8
-#EXTINF:-1 group-title="四川频道",青川综合 [552ms]
+#EXTINF:-1 group-title="四川频道",青川综合 [1618ms]
 http://qcfile.qcrmt.com/nmip-media/channellive/channel100933/playlist.m3u8
-#EXTINF:-1 group-title="四川频道",龙泉新闻综合 [3200ms]
+#EXTINF:-1 group-title="四川频道",龙泉新闻综合 [4320ms]
 http://l.cztvcloud.com/channels/lantian/SXlongquan1/720p.m3u8
 
 # 国际频道
-#EXTINF:-1 group-title="国际频道",ABC News Live [218ms]
+#EXTINF:-1 group-title="国际频道",ABC News Live [192ms]
 https://d4ybyqrhce41r.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-xumo-linear-nbcu-hlsv3/master.m3u8?ads.channelId=99991626
-#EXTINF:-1 group-title="国际频道",Arirang [441ms]
+#EXTINF:-1 group-title="国际频道",Arirang [423ms]
 https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8
-#EXTINF:-1 group-title="国际频道",Bloomberg Asia [219ms]
+#EXTINF:-1 group-title="国际频道",Bloomberg Asia [141ms]
 https://epg.pw/stream/d2edf469b9079064a283f4b0811cbf6f2597ebbb3d08dcf77036a4b5a791b7cf.m3u8
-#EXTINF:-1 group-title="国际频道",CBC News [166ms]
+#EXTINF:-1 group-title="国际频道",CBC News [125ms]
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991276
-#EXTINF:-1 group-title="国际频道",CNA [353ms]
+#EXTINF:-1 group-title="国际频道",CNA [154ms]
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
-#EXTINF:-1 group-title="国际频道",Newsmax [160ms]
+#EXTINF:-1 group-title="国际频道",Newsmax [120ms]
 http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
-#EXTINF:-1 group-title="国际频道",RT Arabic [1314ms]
+#EXTINF:-1 group-title="国际频道",RT Arabic [1187ms]
 https://rt-arb.rttv.com/dvr/rtarab/playlist_4500Kb.m3u8
-#EXTINF:-1 group-title="国际频道",RT DE [1310ms]
+#EXTINF:-1 group-title="国际频道",RT DE [766ms]
 https://rt-srb.rttv.com/dvr/rtbalkan/playlist_4500Kb.m3u8
-#EXTINF:-1 group-title="国际频道",RT DE [1339ms]
-https://rt-ger.rttv.com/dvr/rtdeutsch/playlist_4500Kb.m3u8
-#EXTINF:-1 group-title="国际频道",RT Documentary [1312ms]
+#EXTINF:-1 group-title="国际频道",RT Documentary [1200ms]
 https://rt-rtd.rttv.com/dvr/rtdoc/playlist_4500Kb.m3u8
-#EXTINF:-1 group-title="国际频道",RT Doc-Русский [1304ms]
+#EXTINF:-1 group-title="国际频道",RT Doc-Русский [1446ms]
 https://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8
-#EXTINF:-1 group-title="国际频道",RT Français [1136ms]
+#EXTINF:-1 group-title="国际频道",RT Español [929ms]
+https://rt-esp.rttv.com/dvr/rtesp/playlist_4500Kb.m3u8
+#EXTINF:-1 group-title="国际频道",RT Français [848ms]
 https://rt-fra.rttv.com/dvr/rtfrance/playlist_4500Kb.m3u8
-#EXTINF:-1 group-title="国际频道",RT News [1342ms]
+#EXTINF:-1 group-title="国际频道",RT News [1200ms]
 https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8
-#EXTINF:-1 group-title="国际频道",Trace Sports [300ms]
+#EXTINF:-1 group-title="国际频道",Trace Sports [368ms]
 https://lightning-tracesport-samsungau.amagi.tv/playlist1080p.m3u8
-#EXTINF:-1 group-title="国际频道",Wild Earth [254ms]
+#EXTINF:-1 group-title="国际频道",Wild Earth [220ms]
 https://wildearth-plex.amagi.tv/masterR1080p.m3u8
-#EXTINF:-1 group-title="国际频道",WionNews [128ms]
+#EXTINF:-1 group-title="国际频道",WionNews [88ms]
 https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
 
 # 地方频道
-#EXTINF:-1 group-title="地方频道",万荣综合 [734ms]
+#EXTINF:-1 group-title="地方频道",万荣综合 [831ms]
 http://60.222.246.220:19433/hls1.m3u8
-#EXTINF:-1 group-title="地方频道",三明新闻综合 [1521ms]
-https://ls.qingting.fm/live/5022100/64k.m3u8
-#EXTINF:-1 group-title="地方频道",三明新闻综合 [1793ms]
-http://ls.qingting.fm/live/4885.m3u8
-#EXTINF:-1 group-title="地方频道",上海第一财经 [1180ms]
+#EXTINF:-1 group-title="地方频道",上海第一财经 [2462ms]
 https://satellitepull.cnr.cn/live/wx32dycjgb/playlist.m3u8
-#EXTINF:-1 group-title="地方频道",上虞文化影院 [1996ms]
+#EXTINF:-1 group-title="地方频道",上虞文化影院 [1114ms]
 http://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8
-#EXTINF:-1 group-title="地方频道",上虞新商都 [520ms]
+#EXTINF:-1 group-title="地方频道",上虞新商都 [1186ms]
 http://l.cztvcloud.com/channels/lantian/SXshangyu3/720p.m3u8
-#EXTINF:-1 group-title="地方频道",东丰综合 [741ms]
+#EXTINF:-1 group-title="地方频道",上虞新闻综合 [1110ms]
+http://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8?zzhed
+#EXTINF:-1 group-title="地方频道",东丰综合 [2383ms]
 http://stream3.jlntv.cn:80/aac_dfgb/playlist.m3u8
-#EXTINF:-1 group-title="地方频道",中国蓝新闻 [811ms]
+#EXTINF:-1 group-title="地方频道",中国蓝新闻 [668ms]
 http://ali-m-l.cztv.com/channels/lantian/channel009/1080p.m3u8
-#EXTINF:-1 group-title="地方频道",九台综合 [722ms]
+#EXTINF:-1 group-title="地方频道",九台综合 [2484ms]
 http://stream10.jlntv.cn/jiutaitv/sd/live.m3u8
-#EXTINF:-1 group-title="地方频道",云南娱乐 [1348ms]
-https://hwapi.yntv.net/62hdvf/q9vs1b.m3u8
-#EXTINF:-1 group-title="地方频道",云南都市 [1276ms]
-https://hwapi.yntv.net/62hdvf/rjwt14.m3u8
-#EXTINF:-1 group-title="地方频道",云霄综合 [560ms]
-http://live.zzyxxw.com:85/live/xwzh.m3u8?fujian
-#EXTINF:-1 group-title="地方频道",云霄综合 [589ms]
-http://live.zzyxxw.com:85/live/xwzh.m3u8?fujian,
-#EXTINF:-1 group-title="地方频道",云霄综合 [600ms]
-http://live.zzyxxw.com:85/live/xwzh.m3u8
-#EXTINF:-1 group-title="地方频道",井研综合 [2057ms]
+#EXTINF:-1 group-title="地方频道",井研综合 [2525ms]
 http://tvfile.jyrmt.cn/nmip-media/channellive/channel104452/playlist.m3u8
-#EXTINF:-1 group-title="地方频道",亳州农村 [1828ms]
-http://zbbf2.ahbztv.com/live/418.m3u8?zanhd
-#EXTINF:-1 group-title="地方频道",亳州农村 [1830ms]
-http://zbbf2.ahbztv.com/live/418.m3u8
-#EXTINF:-1 group-title="地方频道",任丘综合 [709ms]
+#EXTINF:-1 group-title="地方频道",仁寿综合 [1480ms]
+https://play.scrstv.com.cn/DT/live.m3u8?auth_key=60001724663204-0-0-c1cc4ded9841ac34f63cdbd3aec647ef
+#EXTINF:-1 group-title="地方频道",任丘综合 [835ms]
 https://jwcdnqx.hebyun.com.cn/live/rqtv1/1500k/tzwj_video.m3u8
-#EXTINF:-1 group-title="地方频道",伊犁哈萨克 [541ms]
+#EXTINF:-1 group-title="地方频道",伊犁哈萨克 [627ms]
 http://110.153.180.106:55555/out_3/index.m3u8
-#EXTINF:-1 group-title="地方频道",伊犁哈萨克 [560ms]
-http://110.153.180.106:55555/out_3/index.m3u8?zxinjd
-#EXTINF:-1 group-title="地方频道",伊犁经济法制 [561ms]
+#EXTINF:-1 group-title="地方频道",伊犁经济法制 [606ms]
 http://110.153.180.106:55555/out_4/index.m3u8
-#EXTINF:-1 group-title="地方频道",伊犁维吾尔 [612ms]
+#EXTINF:-1 group-title="地方频道",伊犁维吾尔 [639ms]
 http://110.153.180.106:55555/out_2/index.m3u8
-#EXTINF:-1 group-title="地方频道",余杭综合 [535ms]
+#EXTINF:-1 group-title="地方频道",余姚新闻综合 [912ms]
+http://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8?cWlkPSZzPTg3OWMwYmMyZDMzYTFhZGY3NDQxMjgyYTg1MmUzNTY0JmVzPTE3MDY2Nzc4NzMmdXVpZD0yMjdiY2MzNGNiNGY0MThlYjRiY2IxYzcwNmZjODNkMS02NzQ3NDY2NyZ2PTImYXM9MCZjZG5leF9pZD10eF9waG9uZV9saXZl
+#EXTINF:-1 group-title="地方频道",余姚综合 [898ms]
+http://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8
+#EXTINF:-1 group-title="地方频道",余姚综合 [921ms]
+https://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8
+#EXTINF:-1 group-title="地方频道",余姚综合 [1681ms]
+http://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8?
+#EXTINF:-1 group-title="地方频道",余杭综合 [936ms]
 http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8
-#EXTINF:-1 group-title="地方频道",六安公共 [969ms]
+#EXTINF:-1 group-title="地方频道",余杭综合 [1760ms]
+http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8?zzhed
+#EXTINF:-1 group-title="地方频道",六安公共 [3153ms]
 http://ls.qingting.fm/live/1794199.m3u8
-#EXTINF:-1 group-title="地方频道",兴隆综合 [674ms]
+#EXTINF:-1 group-title="地方频道",六安新闻综合 [2402ms]
+http://ls.qingting.fm/live/267.m3u8
+#EXTINF:-1 group-title="地方频道",兰溪新闻综合 [890ms]
+http://l.cztvcloud.com/channels/lantian/SXlanxi1/720p.m3u8
+#EXTINF:-1 group-title="地方频道",兴隆综合 [761ms]
 https://jwcdnqx.hebyun.com.cn/live/xlzh/1500k/tzwj_video.m3u8
-#EXTINF:-1 group-title="地方频道",北京新闻 [634ms]
+#EXTINF:-1 group-title="地方频道",北京新闻 [1675ms]
 https://satellitepull.cnr.cn/live/wxbjxwgb/playlist.m3u8
-#EXTINF:-1 group-title="地方频道",南京教科 [958ms]
-http://nklive.nbs.cn/hls/75b3c462-b831-4de7-a34b-5d3221db2069/index.m3u8
-#EXTINF:-1 group-title="地方频道",南京新闻综合 [925ms]
-http://nklive.nbs.cn/hls/d511bc9d-a694-4453-b3a2-4fc842cc97a1/index.m3u8
-#EXTINF:-1 group-title="地方频道",南宁都市生活 [1226ms]
+#EXTINF:-1 group-title="地方频道",南宁都市生活 [1060ms]
 http://615bbf179ba53515dccad7b1da5d1ad9.livehwc3.cn/hls.nntv.cn/nnlive/WLSH_24.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=2598844eaee8a4265e706fc14b3fc11d
-#EXTINF:-1 group-title="地方频道",双辽综合 [662ms]
+#EXTINF:-1 group-title="地方频道",双辽综合 [2126ms]
 http://stream3.jlntv.cn:80/aac_slgb/playlist.m3u8
-#EXTINF:-1 group-title="地方频道",句容党建 [2918ms]
+#EXTINF:-1 group-title="地方频道",句容党建 [1345ms]
 http://jrlive.jrntv.com/live/_definst_/dangjians/playlist.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
-#EXTINF:-1 group-title="地方频道",句容影院 [2836ms]
+#EXTINF:-1 group-title="地方频道",句容影院 [1199ms]
 http://jrlive.jrntv.com/live/_definst_/yingshis/chunklist_w1994429382.m3u8?zjiangsd
-#EXTINF:-1 group-title="地方频道",句容生活 [2950ms]
+#EXTINF:-1 group-title="地方频道",句容生活 [1225ms]
 http://jrlive.jrntv.com/live/_definst_/shenghuos/playlist.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
-#EXTINF:-1 group-title="地方频道",可克达拉综合 [6318ms]
+#EXTINF:-1 group-title="地方频道",可克达拉综合 [1242ms]
 http://file.loulannews.cn/nmip-media/channellive/channel103824/playlist.m3u8
-#EXTINF:-1 group-title="地方频道",吉林乡村 [586ms]
+#EXTINF:-1 group-title="地方频道",吉林乡村 [1026ms]
 https://satellitepull.cnr.cn/live/wxjlxcgb/playlist.m3u8
-#EXTINF:-1 group-title="地方频道",名山综合 [6197ms]
+#EXTINF:-1 group-title="地方频道",名山综合 [2576ms]
 https://m3u8channel-bx.yunxya.com/nmip-media/channellive/channel104666/playlist.m3u8
-#EXTINF:-1 group-title="地方频道",哈尔滨资讯 [502ms]
+#EXTINF:-1 group-title="地方频道",哈尔滨资讯 [579ms]
 http://stream.hrbtv.net/zxpd/sd/live.m3u8
-#EXTINF:-1 group-title="地方频道",嘉兴新闻综合 [2167ms]
-http://live.zohi.tv/video/s10001-fztv-1/index.m3u8
-#EXTINF:-1 group-title="地方频道",嘉兴新闻综合 [2388ms]
-http://tvfile.jyrmt.cn:80/nmip-media/channellive/channel104452/playlist.m3u8
-#EXTINF:-1 group-title="地方频道",嘉峪关综合 [1526ms]
+#EXTINF:-1 group-title="地方频道",嘉峪关综合 [1551ms]
 http://play.kankanlive.com/live/1720583434627241.m3u8
-#EXTINF:-1 group-title="地方频道",固镇新闻 [579ms]
+#EXTINF:-1 group-title="地方频道",固镇新闻 [741ms]
 http://www.guzhenm.com:7001/hls/hd-live.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
-#EXTINF:-1 group-title="地方频道",固镇新闻 [647ms]
-http://www.guzhenm.com:7001/hls/hd-live.m3u8
-#EXTINF:-1 group-title="地方频道",大宁综合 [2389ms]
+#EXTINF:-1 group-title="地方频道",大宁综合 [2628ms]
 http://live.daningtv.com/aac_dngb/playlist.m3u8
-#EXTINF:-1 group-title="地方频道",天祝综合 [1672ms]
+#EXTINF:-1 group-title="地方频道",天祝综合 [1690ms]
 https://play.kankanlive.com/live/1656487214793905.m3u8
-#EXTINF:-1 group-title="地方频道",太谷新闻综合 [624ms]
-https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&tpid=1516989100&type=0
-#EXTINF:-1 group-title="地方频道",太谷新闻综合 [1680ms]
+#EXTINF:-1 group-title="地方频道",太谷新闻综合 [903ms]
 https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&amp;amp;tpid=1516989100&amp;amp;type=0
-#EXTINF:-1 group-title="地方频道",奎屯哈萨克语 [590ms]
+#EXTINF:-1 group-title="地方频道",奎屯哈萨克语 [1450ms]
 http://218.84.12.186:8002/hls/main/playlist.m3u8?zxinjd
-#EXTINF:-1 group-title="地方频道",安徽导视 [435ms]
+#EXTINF:-1 group-title="地方频道",安徽导视 [510ms]
 http://dspdhls.appcoo.com:8888/live/dspd/index.m3u8
-#EXTINF:-1 group-title="地方频道",山东新闻 [585ms]
+#EXTINF:-1 group-title="地方频道",定襄综合 [2457ms]
+http://lbyzztfe.live.sxmty.com/live/hls/645ff4c60e0a49f0a203abbd73dd8be9/0720e665f10f48e98c9639f4f492fb4a-1.m3u8?zshanxd
+#EXTINF:-1 group-title="地方频道",山东新闻 [1932ms]
 http://ls.qingting.fm/live/60180.m3u8
-#EXTINF:-1 group-title="地方频道",山东生活 [505ms]
+#EXTINF:-1 group-title="地方频道",山东生活 [1897ms]
 http://ls.qingting.fm/live/60260.m3u8
-#EXTINF:-1 group-title="地方频道",嵊泗综合 [2429ms]
-http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8?zzhed
-#EXTINF:-1 group-title="地方频道",嵊泗综合 [3199ms]
-http://l.cztvcloud.com/channels/lantian/SXshengsi1/720p.m3u8
-#EXTINF:-1 group-title="地方频道",平泉综合 [713ms]
+#EXTINF:-1 group-title="地方频道",嵊州新闻综合 [1476ms]
+http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8?zzhed#http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8
+#EXTINF:-1 group-title="地方频道",平泉综合 [788ms]
 https://jwcdnqx.hebyun.com.cn/live/pqzh/1500k/tzwj_video.m3u8
-#EXTINF:-1 group-title="地方频道",广安公共 [496ms]
-http://live1.gatv.com.cn:85/live/GGPD_ggpdzm.m3u8
-#EXTINF:-1 group-title="地方频道",广安公共 [497ms]
-http://live1.gatv.com.cn:85/live/GGPD.m3u8
-#EXTINF:-1 group-title="地方频道",广安公共 [901ms]
-http://live1.gatv.com.cn:85/live/GGPD_ggpdzm.m3u8?zsicd
-#EXTINF:-1 group-title="地方频道",广德生活 [2769ms]
+#EXTINF:-1 group-title="地方频道",平湖新闻综合 [786ms]
+http://l.cztvcloud.com/channels/lantian/SXpinghu1/720p.m3u8?zzhed
+#EXTINF:-1 group-title="地方频道",广德生活 [3320ms]
 https://live.gdtv.ah.cn/live/newsTV.m3u8
-#EXTINF:-1 group-title="地方频道",广西国际 [1319ms]
+#EXTINF:-1 group-title="地方频道",广西国际 [394ms]
 https://hlscdn.liangtv.cn/live/0234c48e0bc24fe1b41b9999a253e581/1075ee38e04f490690f6a36a16e09c79.m3u8
-#EXTINF:-1 group-title="地方频道",庆元新闻综合 [2825ms]
+#EXTINF:-1 group-title="地方频道",庆元新闻综合 [674ms]
 http://l.cztvcloud.com/channels/lantian/SXqingyuan1/720p.m3u8?fbl=
-#EXTINF:-1 group-title="地方频道",延边2 [904ms]
+#EXTINF:-1 group-title="地方频道",庆元综合 [602ms]
+http://l.cztvcloud.com/channels/lantian/SXqingyuan1/720p.m3u8
+#EXTINF:-1 group-title="地方频道",庆元综合 [1830ms]
+http://l.cztvcloud.com/channels/lantian/SXqingyuan1/720p.m3u8?zzhed?
+#EXTINF:-1 group-title="地方频道",延边2 [1277ms]
 http://stream5.jlntv.cn/wq/playlist.m3u8
-#EXTINF:-1 group-title="地方频道",开化国家公园 [1995ms]
+#EXTINF:-1 group-title="地方频道",开化国家公园 [595ms]
+http://l.cztvcloud.com/channels/lantian/SXkaihua2/720p.m3u8?zzhed#http://l.cztvcloud.com/channels/lantian/SXkaihua2/720p.m3u8zzhed#http://l.cztvcloud.com/channels/lantian/SXkaihua2/720p.m3u8
+#EXTINF:-1 group-title="地方频道",开化国家公园 [746ms]
 http://l.cztvcloud.com/channels/lantian/SXkaihua2/720p.m3u8
-#EXTINF:-1 group-title="地方频道",开化新闻综合 [2001ms]
+#EXTINF:-1 group-title="地方频道",开化国家公园 [750ms]
+http://l.cztvcloud.com/channels/lantian/SXkaihua2/720p.m3u8?zzhed
+#EXTINF:-1 group-title="地方频道",开化新闻综合 [560ms]
 http://l.cztvcloud.com/channels/lantian/SXkaihua1/720p.m3u8?zzhed
-#EXTINF:-1 group-title="地方频道",张掖新闻综合 [953ms]
-https://play.kankanlive.com/live/1720583434627241.m3u8
-#EXTINF:-1 group-title="地方频道",德惠综合 [716ms]
+#EXTINF:-1 group-title="地方频道",德惠综合 [3750ms]
 http://stream11.jlntv.cn/dehuitv/sd/live.m3u8
-#EXTINF:-1 group-title="地方频道",敦化一套 [767ms]
+#EXTINF:-1 group-title="地方频道",怀仁综合 [1362ms]
+https://1yp7hc5p.live.sxmty.com/live/hls/bff8529922344209985b6e49baa9555a/efa2543628fc4a7ea93d3d6c975f77dc-1.m3u8
+#EXTINF:-1 group-title="地方频道",敦化一套 [1245ms]
 http://stream8.jlntv.cn/dhtv/playlist.m3u8
-#EXTINF:-1 group-title="地方频道",新沂新闻 [1040ms]
-http://live.xysrmt.cn/xwzh/sd/live.m3u8?zjiangsd"
-#EXTINF:-1 group-title="地方频道",新沂生活 [944ms]
-http://live.xysrmt.cn/shpd/sd/live.m3u8?zjiangsd
-#EXTINF:-1 group-title="地方频道",新闻综合 [1442ms]
-https://m3u8channel.yunxya.com/nmip-media/channellive/channel100028/playlist.m3u8
-#EXTINF:-1 group-title="地方频道",易门综合 [1556ms]
-https://zb-live.ynurl.com/yimen/3b75a2f9-7941-46b7-992d-a9796fbca5fe.m3u8
-#EXTINF:-1 group-title="地方频道",晋江电视台 [1740ms]
-http://stream.jinjiang.tv/1/sd/live.m3u8?zfud
-#EXTINF:-1 group-title="地方频道",来宾综合 [961ms]
-http://zb.gxlbamc.com:1935/live/lbzh.stream/playlist.m3u8
-#EXTINF:-1 group-title="地方频道",松潘新闻综合 [519ms]
-http://live.spccmc.com:90/live/spxwzh.m3u8
-#EXTINF:-1 group-title="地方频道",松阳综合 [1238ms]
-http://l.cztvcloud.com/channels/lantian/SXsongyang1/720p.m3u8
-#EXTINF:-1 group-title="地方频道",松阳综合 [1852ms]
-http://l.cztvcloud.com/channels/lantian/SXsongyang1/720p.m3u8?zzhed?
-#EXTINF:-1 group-title="地方频道",柳河综合 [1443ms]
-http://stream3.jlntv.cn:80/aac_lhgb/sd/live.m3u8
-#EXTINF:-1 group-title="地方频道",桦甸综合 [747ms]
-http://stream9.jlntv.cn:80/aac_huadiangb/playlist.m3u8
-#EXTINF:-1 group-title="地方频道",梅河口综合 [640ms]
-http://stream3.jlntv.cn:80/aac_mhkgb/playlist.m3u8
-#EXTINF:-1 group-title="地方频道",梨园 [1246ms]
-https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=41543190cdf375f1c73207222bb96542&wsTime=1769313549
-#EXTINF:-1 group-title="地方频道",武义新闻综合 [1142ms]
-http://l.cztvcloud.com/channels/lantian/SXwuyi1/720p.m3u8?zzhed
-#EXTINF:-1 group-title="地方频道",武汉一台新闻综合 [585ms]
-https://ls.qingting.fm/live/20198/64k.m3u8
-#EXTINF:-1 group-title="地方频道",武进新闻 [1258ms]
-https://live.wjyanghu.com/live/CH1.m3u8
-#EXTINF:-1 group-title="地方频道",武进生活 [1735ms]
-http://live.wjyanghu.com/live/CH2.m3u8
-#EXTINF:-1 group-title="地方频道",永嘉新闻综合 [979ms]
-http://l.cztvcloud.com/channels/lantian/SXyongjia1/720p.m3u8
-#EXTINF:-1 group-title="地方频道",永昌综合 [893ms]
-https://play.kankanlive.com/live/1652755738635915.m3u8
-#EXTINF:-1 group-title="地方频道",汪清综合 [655ms]
-http://stream5.jlntv.cn/wq/sd/live.m3u8
-#EXTINF:-1 group-title="地方频道",汶川新闻综合 [433ms]
-http://live.iwcmt.cn:90/live/zhxw.m3u8?zsicd
-#EXTINF:-1 group-title="地方频道",汶川新闻综合 [482ms]
-http://live.iwcmt.cn:90/live/zhxw.m3u8
-#EXTINF:-1 group-title="地方频道",汶川新闻综合 [1031ms]
-http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8?zsicd#rtmp://tv.mcrm.org.cn:1935/channellive/tv01
-#EXTINF:-1 group-title="地方频道",沐川综合 [1032ms]
-http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8?zsicd
-#EXTINF:-1 group-title="地方频道",河北农民 [832ms]
-https://jwcdnqx.hebyun.com.cn/live/clzhpd/1500k/tzwj_video.m3u8?zhebd
-#EXTINF:-1 group-title="地方频道",河北都市 [1516ms]
-https://radio.pull.hebtv.com/live/hebnczx.m3u8
-#EXTINF:-1 group-title="地方频道",泸县新闻综合 [1667ms]
-https://m3u8channel.ganzitv.com/nmip-media/channellive/channel1/playlist.m3u8
-#EXTINF:-1 group-title="地方频道",浙江休闲台 [612ms]
-http://ali-m-l.cztv.com/channels/lantian/channel006/720p.m3u8
-#EXTINF:-1 group-title="地方频道",浙江公共新闻 [553ms]
-http://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
-#EXTINF:-1 group-title="地方频道",浙江公共新闻 [569ms]
-http://ali-m-l.cztv.com/channels/lantian/channel07/1080p.m3u8
-#EXTINF:-1 group-title="地方频道",浙江国际 [512ms]
-http://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
-#EXTINF:-1 group-title="地方频道",浙江国际 [552ms]
-http://ali-vl.cztv.com/channels/lantian/channel010/360p.m3u8
-#EXTINF:-1 group-title="地方频道",浙江国际 [560ms]
-http://ali-m-l.cztv.com/channels/lantian/channel010/720p.m3u8
-#EXTINF:-1 group-title="地方频道",浙江教科 [445ms]
-http://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
-#EXTINF:-1 group-title="地方频道",浙江教育 [427ms]
-http://ali-m-l.cztv.com/channels/lantian/channel04/720p.m3u8
-#EXTINF:-1 group-title="地方频道",浙江数码时代 [390ms]
+#EXTINF:-1 group-title="地方频道",数码时代 [634ms]
 http://ali-m-l.cztv.com/channels/lantian/channel12/720p.m3u8?zzhed
-#EXTINF:-1 group-title="地方频道",浙江数码时代 [422ms]
+#EXTINF:-1 group-title="地方频道",新昌新闻综合 [2334ms]
+https://l.cztvcloud.com/channels/lantian/SXxinchang1/720p.m3u8
+#EXTINF:-1 group-title="地方频道",新昌生活 [1164ms]
+http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8
+#EXTINF:-1 group-title="地方频道",新沂新闻 [1042ms]
+http://live.xysrmt.cn/xwzh/sd/live.m3u8?zjiangsd"
+#EXTINF:-1 group-title="地方频道",新沂生活 [1010ms]
+http://live.xysrmt.cn/shpd/sd/live.m3u8?zjiangsd
+#EXTINF:-1 group-title="地方频道",新闻综合 [1560ms]
+https://m3u8channel.yunxya.com/nmip-media/channellive/channel100028/playlist.m3u8
+#EXTINF:-1 group-title="地方频道",易门综合 [1857ms]
+https://zb-live.ynurl.com/yimen/3b75a2f9-7941-46b7-992d-a9796fbca5fe.m3u8
+#EXTINF:-1 group-title="地方频道",晋江电视台 [748ms]
+http://stream.jinjiang.tv/1/sd/live.m3u8?zfud
+#EXTINF:-1 group-title="地方频道",普陀新闻综合 [1116ms]
+http://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8
+#EXTINF:-1 group-title="地方频道",普陀电视台 [1330ms]
+https://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8
+#EXTINF:-1 group-title="地方频道",来宾综合 [1209ms]
+http://zb.gxlbamc.com:1935/live/lbzh.stream/playlist.m3u8
+#EXTINF:-1 group-title="地方频道",柳河综合 [2195ms]
+http://stream3.jlntv.cn:80/aac_lhgb/sd/live.m3u8
+#EXTINF:-1 group-title="地方频道",桦甸综合 [1394ms]
+http://stream9.jlntv.cn:80/aac_huadiangb/playlist.m3u8
+#EXTINF:-1 group-title="地方频道",梅河口综合 [1289ms]
+http://stream3.jlntv.cn:80/aac_mhkgb/playlist.m3u8
+#EXTINF:-1 group-title="地方频道",武义新闻综合 [853ms]
+http://l.cztvcloud.com/channels/lantian/SXwuyi1/720p.m3u8
+#EXTINF:-1 group-title="地方频道",武义新闻综合 [1049ms]
+http://l.cztvcloud.com/channels/lantian/SXwuyi1/720p.m3u8?zzhed
+#EXTINF:-1 group-title="地方频道",武汉一台新闻综合 [649ms]
+https://ls.qingting.fm/live/20198/64k.m3u8
+#EXTINF:-1 group-title="地方频道",永嘉新闻综合 [860ms]
+http://l.cztvcloud.com/channels/lantian/SXyongjia1/720p.m3u8
+#EXTINF:-1 group-title="地方频道",永昌综合 [948ms]
+https://play.kankanlive.com/live/1652755738635915.m3u8
+#EXTINF:-1 group-title="地方频道",汪清综合 [687ms]
+http://stream5.jlntv.cn/wq/sd/live.m3u8
+#EXTINF:-1 group-title="地方频道",河北都市 [1451ms]
+https://radio.pull.hebtv.com/live/hebnczx.m3u8
+#EXTINF:-1 group-title="地方频道",泸县新闻综合 [1638ms]
+https://m3u8channel.ganzitv.com/nmip-media/channellive/channel1/playlist.m3u8
+#EXTINF:-1 group-title="地方频道",洞头综合 [715ms]
+http://l.cztvcloud.com/channels/lantian/SXdongtou1/720p.m3u8
+#EXTINF:-1 group-title="地方频道",洞头综合 [1247ms]
+http://l.cztvcloud.com/channels/lantian/SXdongtou1/720p.m3u8?zzhed?
+#EXTINF:-1 group-title="地方频道",津南一套 [1187ms]
+http://play.jinnantv.top/live/JNTV1.m3u8?ztianjd
+#EXTINF:-1 group-title="地方频道",浙江休闲台 [691ms]
+http://ali-m-l.cztv.com/channels/lantian/channel006/720p.m3u8
+#EXTINF:-1 group-title="地方频道",浙江教科 [636ms]
+http://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
+#EXTINF:-1 group-title="地方频道",浙江教育 [665ms]
+http://ali-m-l.cztv.com/channels/lantian/channel04/720p.m3u8
+#EXTINF:-1 group-title="地方频道",浙江数码时代 [617ms]
 http://ali-m-l.cztv.com/channels/lantian/channel12/720p.m3u8
-#EXTINF:-1 group-title="地方频道",浙江新闻 [453ms]
-http://ali-m-l.cztv.com/channels/lantian/channel07/720p.m3u8
-#EXTINF:-1 group-title="地方频道",浙江新闻 [544ms]
+#EXTINF:-1 group-title="地方频道",浙江新闻 [830ms]
 http://ali-vl.cztv.com/channels/lantian/channel007/360p.m3u8
-#EXTINF:-1 group-title="地方频道",浙江新闻 [617ms]
-http://ali-m-l.cztv.com/channels/lantian/channel007/720p.m3u8
-#EXTINF:-1 group-title="地方频道",浙江民生 [540ms]
+#EXTINF:-1 group-title="地方频道",浙江新闻 [862ms]
+https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
+#EXTINF:-1 group-title="地方频道",浙江民生 [638ms]
 http://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
-#EXTINF:-1 group-title="地方频道",浙江民生 [555ms]
-http://ali-m-l.cztv.com/channels/lantian/channel06/720p.m3u8
-#EXTINF:-1 group-title="地方频道",浙江民生 [601ms]
-http://ali-m-l.cztv.com/channels/lantian/channel06/1080p.m3u8
-#EXTINF:-1 group-title="地方频道",浙江民生休闲 [572ms]
-http://ali-vl.cztv.com/channels/lantian/channel006/360p.m3u8
-#EXTINF:-1 group-title="地方频道",浙江民生休闲 [896ms]
-https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
-#EXTINF:-1 group-title="地方频道",浙江生活 [524ms]
+#EXTINF:-1 group-title="地方频道",浙江生活 [348ms]
 http://ls.qingting.fm/live/1099.m3u8
-#EXTINF:-1 group-title="地方频道",浙江留学 [691ms]
+#EXTINF:-1 group-title="地方频道",浙江留学 [597ms]
 http://ali-vl.cztv.com/channels/lantian/channel009/360p.m3u8
-#EXTINF:-1 group-title="地方频道",浙江经济 [505ms]
+#EXTINF:-1 group-title="地方频道",浙江经济 [583ms]
 http://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
-#EXTINF:-1 group-title="地方频道",浙江经济 [546ms]
-http://ali-m-l.cztv.com/channels/lantian/channel03/720p.m3u8
-#EXTINF:-1 group-title="地方频道",浙江经济 [696ms]
-https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8?
-#EXTINF:-1 group-title="地方频道",浙江经济生活 [509ms]
-http://ali-m-l.cztv.com/channels/lantian/channel03/1080p.m3u8
-#EXTINF:-1 group-title="地方频道",浙江经济生活 [535ms]
+#EXTINF:-1 group-title="地方频道",浙江经济生活 [508ms]
 http://ali-m-l.cztv.com/channels/lantian/channel03/1080p.m3u8#https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8#http://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
-#EXTINF:-1 group-title="地方频道",浙江经济生活 [572ms]
-http://ali-vl.cztv.com/channels/lantian/channel003/360p.m3u8
-#EXTINF:-1 group-title="地方频道",浙江经视 [512ms]
-http://ali-m-l.cztv.com/channels/lantian/channel003/720p.m3u8
-#EXTINF:-1 group-title="地方频道",浙江遂昌 [522ms]
+#EXTINF:-1 group-title="地方频道",浙江经济生活 [778ms]
+https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
+#EXTINF:-1 group-title="地方频道",浙江遂昌 [544ms]
 http://l.cztvcloud.com/channels/lantian/SXsuichang1/720p.m3u8
-#EXTINF:-1 group-title="地方频道",浙江钱江 [622ms]
-https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8?
-#EXTINF:-1 group-title="地方频道",浙江钱江 [1260ms]
+#EXTINF:-1 group-title="地方频道",浙江钱江 [5779ms]
 http://l.cztvcloud.com/channels/lantian/SXyuyao2/720p.m3u8
-#EXTINF:-1 group-title="地方频道",浙江钱江都市 [1406ms]
-http://ali-xwl.cztv.com/live/channel02720Plxw.m3u8
-#EXTINF:-1 group-title="地方频道",浙江钱江都市 [1408ms]
-http://ali-xwl.cztv.com/live/channel021080Plxw.m3u8
-#EXTINF:-1 group-title="地方频道",浙江钱江频道 [497ms]
-http://ali-m-l.cztv.com/channels/lantian/channel02/1080p.m3u8
-#EXTINF:-1 group-title="地方频道",海南新闻 [1580ms]
+#EXTINF:-1 group-title="地方频道",海南新闻 [602ms]
 http://ls.qingting.fm/live/1861.m3u8
-#EXTINF:-1 group-title="地方频道",海宁新闻综合 [1285ms]
+#EXTINF:-1 group-title="地方频道",海宁新闻综合 [1783ms]
 https://p2hs.vzan.com/slowlive/317913155078575177/live.m3u8
-#EXTINF:-1 group-title="地方频道",清河经济综艺 [766ms]
+#EXTINF:-1 group-title="地方频道",清河经济综艺 [753ms]
 https://jwcdnqx.hebyun.com.cn/live/qinghe1/1500k/tzwj_video.m3u8
-#EXTINF:-1 group-title="地方频道",渭源新闻 [941ms]
+#EXTINF:-1 group-title="地方频道",渭源新闻 [711ms]
 http://play.kankanlive.com/live/1720408280309109.m3u8
-#EXTINF:-1 group-title="地方频道",滦平新闻 [471ms]
+#EXTINF:-1 group-title="地方频道",湖州公共民生 [799ms]
+http://hzcm-live.media.hugd.com/1e6b554b9ab74513958c0e1ffe664d22/9acaa7634309494cb29a85eb12136607.m3u8?auth_key=2272900830-9a2389b8bf4e49d580d4ad807423d326-0-ea78a5c7a678c436263582d368f5009e
+#EXTINF:-1 group-title="地方频道",湖州文化娱乐 [788ms]
+http://hzcm-live.media.hugd.com/613c47f0ab0d4eaa98b21378d0db6ded/0051d31c9dd543a7825eea4e49675b2a.m3u8?auth_key=2277598059-0a5ebfa1c0dc4671b42a60810fc37039-0-fa625b7d1feab612062453c12e3c8887
+#EXTINF:-1 group-title="地方频道",湖州新闻综合 [779ms]
+http://hzcm-live.media.hugd.com/3f5fa7d64c7c46a38c6bd8ad35e836cc/65128273761b4731ae53729ea6dcf932.m3u8?auth_key=2277598215-9d21c15111244bea8d298c361d31a72e-0-d031198f58d44b0e91ba2e3f3b188865
+#EXTINF:-1 group-title="地方频道",滦平新闻 [590ms]
 http://jwplay.hebyun.com.cn/live/LPTV001/1500k/tzwj_video.m3u8
-#EXTINF:-1 group-title="地方频道",滨海新闻综合 [852ms]
-http://traffic.jbh.tjbh.com/live/bhtv10/playlist.m3u8
-#EXTINF:-1 group-title="地方频道",灌阳新闻综合 [536ms]
+#EXTINF:-1 group-title="地方频道",灌阳新闻综合 [1670ms]
 https://ls.qingting.fm/live/5043/64k.m3u8
-#EXTINF:-1 group-title="地方频道",玛纳斯综合 [1591ms]
+#EXTINF:-1 group-title="地方频道",玛纳斯综合 [596ms]
 http://218.84.127.245:1026/hls/main1/playlist.m3u8?zxinjd,
-#EXTINF:-1 group-title="地方频道",璧山综合 [784ms]
+#EXTINF:-1 group-title="地方频道",璧山综合 [805ms]
 http://222.179.42.129:8181/hls1.m3u8
-#EXTINF:-1 group-title="地方频道",甘南县综合 [1084ms]
+#EXTINF:-1 group-title="地方频道",甘南县综合 [1213ms]
 https://stream.hrbtv.net/zxpd/sd/live.m3u8
-#EXTINF:-1 group-title="地方频道",甘肃经济 [544ms]
+#EXTINF:-1 group-title="地方频道",甘肃经济 [509ms]
 https://satellitepull.cnr.cn/live/wxgshhzs/playlist.m3u8
-#EXTINF:-1 group-title="地方频道",甘肃都市 [546ms]
+#EXTINF:-1 group-title="地方频道",甘肃都市 [1009ms]
 https://satellitepull.cnr.cn/live/wxgsdstb/playlist.m3u8
-#EXTINF:-1 group-title="地方频道",磐石综合 [663ms]
+#EXTINF:-1 group-title="地方频道",白银综合 [577ms]
+http://play.kankanlive.com/live/1720408089419110.m3u8
+#EXTINF:-1 group-title="地方频道",磐石综合 [867ms]
 http://stream3.jlntv.cn:80/aac_psgb/sd/live.m3u8
-#EXTINF:-1 group-title="地方频道",祁门综合 [1531ms]
+#EXTINF:-1 group-title="地方频道",祁门综合 [500ms]
 http://zbbf2.ahbztv.com/live/416.m3u8?zanhd
-#EXTINF:-1 group-title="地方频道",福州生活 [2416ms]
-http://live.zohi.tv:80/video/s10001-fztv-3/index.m3u8
-#EXTINF:-1 group-title="地方频道",福建新闻 [538ms]
+#EXTINF:-1 group-title="地方频道",福建新闻 [1011ms]
 http://satellitepull.cnr.cn/live/wx32fjxwgb/playlist.m3u8
-#EXTINF:-1 group-title="地方频道",福建经济 [1075ms]
+#EXTINF:-1 group-title="地方频道",福建经济 [1005ms]
 http://satellitepull.cnr.cn/live/wx32fjdnjjgb/playlist.m3u8
-#EXTINF:-1 group-title="地方频道",第一财经 [32ms]
+#EXTINF:-1 group-title="地方频道",第一财经 [10ms]
 http://satellitepull.cnr.cn/live/wx32dycjgb/playlist.m3u8
-#EXTINF:-1 group-title="地方频道",缙云新闻综合 [782ms]
+#EXTINF:-1 group-title="地方频道",缙云新闻综合 [5483ms]
 http://l.cztvcloud.com/channels/lantian/SXjinyun1/720p.m3u8
-#EXTINF:-1 group-title="地方频道",缙云综合 [762ms]
-http://l.cztvcloud.com/channels/lantian/SXjinyun1/720p.m3u8?zzhed?
-#EXTINF:-1 group-title="地方频道",舒兰新闻综合 [622ms]
+#EXTINF:-1 group-title="地方频道",舒兰新闻综合 [1101ms]
 http://stream8.jlntv.cn/shulan/sd/live.m3u8?_upt=332db6421699196585
-#EXTINF:-1 group-title="地方频道",荆门新闻综合 [1397ms]
-http://stream.jmtv.com.cn/xwzh/sd/live.m3u8
-#EXTINF:-1 group-title="地方频道",营山电视台 [496ms]
+#EXTINF:-1 group-title="地方频道",苍南新闻综合 [6504ms]
+https://l.cztvcloud.com/channels/lantian/SXcangnan1/720p.m3u8
+#EXTINF:-1 group-title="地方频道",营山电视台 [1635ms]
 http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8?zsicd#http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8
-#EXTINF:-1 group-title="地方频道",萧山生活 [657ms]
-http://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8?zzhed
-#EXTINF:-1 group-title="地方频道",萧山生活 [674ms]
-http://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
-#EXTINF:-1 group-title="地方频道",萧山生活 [2706ms]
-http://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8?zzhed?
-#EXTINF:-1 group-title="地方频道",衡水公共 [511ms]
+#EXTINF:-1 group-title="地方频道",萧山新闻综合 [5685ms]
+https://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8
+#EXTINF:-1 group-title="地方频道",衡水公共 [628ms]
 http://ls.qingting.fm/live/2810.m3u8
-#EXTINF:-1 group-title="地方频道",衡阳新闻综合 [1299ms]
+#EXTINF:-1 group-title="地方频道",衡阳新闻综合 [1425ms]
 https://liveplay-srs.voc.com.cn/hls/tv/183_554704.m3u8
-#EXTINF:-1 group-title="地方频道",西宁新闻综合 [989ms]
-https://liveout.xntv.tv/a65jur/96iln2.m3u8?zqinghd
-#EXTINF:-1 group-title="地方频道",象山综合 [541ms]
+#EXTINF:-1 group-title="地方频道",衢江新闻综合 [5418ms]
+http://l.cztvcloud.com/channels/lantian/SXqujiang1/720p.m3u8?zzhed
+#EXTINF:-1 group-title="地方频道",西峰综合 [1280ms]
+https://play.kankanlive.com/live/1683944827526991.m3u8
+#EXTINF:-1 group-title="地方频道",象山综合 [936ms]
 http://play-sh13.quklive.com/live/1702360350551252.m3u8?auth_key=2037107484-800189c57a5a44d3b823b60cf84f6756-0-a6f6828a62d5c167cff5e68735fa0d39
-#EXTINF:-1 group-title="地方频道",辉南新闻综合 [595ms]
+#EXTINF:-1 group-title="地方频道",辉南新闻综合 [1415ms]
 http://stream5.jlntv.cn/hn/sd/live.m3u8
-#EXTINF:-1 group-title="地方频道",辽宁都市 [374ms]
-https://ls.qingting.fm/live/1099/64k.m3u8
-#EXTINF:-1 group-title="地方频道",辽宁都市 [441ms]
-http://120.76.248.139/live/bfgd/4200000610.m3u8
-#EXTINF:-1 group-title="地方频道",辽宁都市 [544ms]
-http://120.76.248.139/live/bfgd/4200000068.m3u8
-#EXTINF:-1 group-title="地方频道",通化县综合 [659ms]
+#EXTINF:-1 group-title="地方频道",通化县综合 [1530ms]
 http://stream3.jlntv.cn:80/aac_thxgb/playlist.m3u8
-#EXTINF:-1 group-title="地方频道",通海电视台 [2315ms]
+#EXTINF:-1 group-title="地方频道",通海电视台 [1254ms]
 https://zb-live.ynurl.com/tonghai/3bfe3a9e-48e6-4c1e-8770-1df66447cc6c.m3u8
-#EXTINF:-1 group-title="地方频道",邢台综合 [734ms]
-https://jwplay.hebyun.com.cn:443/live/xtsrmtzs/1500k/tzwj_video.m3u8
-#EXTINF:-1 group-title="地方频道",邢台综合 [1160ms]
-http://jwplay.hebyun.com.cn/live/xtsrmtzs/1500k/tzwj_video.m3u8
-#EXTINF:-1 group-title="地方频道",邯郸新闻 [737ms]
-https://jwcdnqx.hebyun.com.cn/live/hdxwzh/1500k/tzwj_video.m3u8
-#EXTINF:-1 group-title="地方频道",都市剧场 [576ms]
+#EXTINF:-1 group-title="地方频道",遂昌综合 [6284ms]
+http://l.cztvcloud.com/channels/lantian/SXsuichang1/720p.m3u8?zzhed
+#EXTINF:-1 group-title="地方频道",都市剧场 [1016ms]
 https://satellitepull.cnr.cn/live/wxcqxwgb/playlist.m3u8
-#EXTINF:-1 group-title="地方频道",金川新闻综合 [540ms]
-http://139.203.180.9:90/live/zhxw.m3u8
-#EXTINF:-1 group-title="地方频道",金川新闻综合 [662ms]
-http://live.jinchuanrmt.com:90/live/zhxw.m3u8?zsicd
-#EXTINF:-1 group-title="地方频道",铜梁综合 [762ms]
-http://183.64.174.171:40123/ch1.m3u8?zzhongqd
-#EXTINF:-1 group-title="地方频道",铜陵新闻综合 [547ms]
+#EXTINF:-1 group-title="地方频道",铜陵新闻综合 [632ms]
 https://ls.qingting.fm/live/21303/64k.m3u8
-#EXTINF:-1 group-title="地方频道",长沙新闻综合 [1187ms]
+#EXTINF:-1 group-title="地方频道",长子综合 [1164ms]
+https://www.wxhcgbds.com:8081/channelTv/WXTV_1.m3u8?zshanxd
+#EXTINF:-1 group-title="地方频道",长沙新闻综合 [595ms]
 http://ls.qingting.fm/live/4877.m3u8
-#EXTINF:-1 group-title="地方频道",长白山电视台 [625ms]
+#EXTINF:-1 group-title="地方频道",长白山电视台 [2812ms]
 http://stream8.jlntv.cn/cbstv/sd/live.m3u8?zjild
-#EXTINF:-1 group-title="地方频道",长白朝语 [1405ms]
+#EXTINF:-1 group-title="地方频道",长白朝语 [1222ms]
 http://hplayer1.juyun.tv:80/camera/11344136.m3u8
-#EXTINF:-1 group-title="地方频道",陕西公共 [562ms]
+#EXTINF:-1 group-title="地方频道",陕西公共 [680ms]
 http://ls.qingting.fm/live/1222.m3u8
-#EXTINF:-1 group-title="地方频道",靖宇综合 [1379ms]
+#EXTINF:-1 group-title="地方频道",靖宇综合 [830ms]
 http://stream9.jlntv.cn:80/aac_jygb/playlist.m3u8
-#EXTINF:-1 group-title="地方频道",靖江新闻综合 [590ms]
+#EXTINF:-1 group-title="地方频道",靖江新闻综合 [639ms]
 http://ls.qingting.fm/live/23797.m3u8
-#EXTINF:-1 group-title="地方频道",黑龙江新闻 [329ms]
+#EXTINF:-1 group-title="地方频道",黑龙江新闻法治 [635ms]
 https://ls.qingting.fm/live/4974/64k.m3u8
-#EXTINF:-1 group-title="地方频道",龙井综合 [573ms]
+#EXTINF:-1 group-title="地方频道",龙井综合 [749ms]
 http://stream9.jlntv.cn:80/aac_longjinggb/playlist.m3u8
 
 # 埋堆堆频道
-#EXTINF:-1 group-title="埋堆堆频道",使徒行者 [612ms]
+#EXTINF:-1 group-title="埋堆堆频道",使徒行者 [344ms]
 https://live.metshop.top/huya/23734256
-#EXTINF:-1 group-title="埋堆堆频道",刑事侦缉档案 [1783ms]
+#EXTINF:-1 group-title="埋堆堆频道",倚天屠龙记 [1127ms]
+https://live.metshop.top/huya/23734246
+#EXTINF:-1 group-title="埋堆堆频道",倚天屠龙记 [1813ms]
+https://live.ottiptv.cc/huya/11342403
+#EXTINF:-1 group-title="埋堆堆频道",刑事侦缉档案 [1222ms]
 https://live.metshop.top/huya/29465856
-#EXTINF:-1 group-title="埋堆堆频道",创世纪 [1159ms]
+#EXTINF:-1 group-title="埋堆堆频道",创世纪 [972ms]
 https://live.metshop.top/huya/29465852
-#EXTINF:-1 group-title="埋堆堆频道",大唐双龙传 [1192ms]
+#EXTINF:-1 group-title="埋堆堆频道",大唐双龙传 [835ms]
 https://live.metshop.top/huya/29465850
-#EXTINF:-1 group-title="埋堆堆频道",大时代 [980ms]
+#EXTINF:-1 group-title="埋堆堆频道",大时代 [1188ms]
 https://live.metshop.top/huya/23865161
-#EXTINF:-1 group-title="埋堆堆频道",天龙八部 [811ms]
+#EXTINF:-1 group-title="埋堆堆频道",天龙八部 [883ms]
 https://live.ottiptv.cc/yy/1351814644
-#EXTINF:-1 group-title="埋堆堆频道",天龙八部 [901ms]
+#EXTINF:-1 group-title="埋堆堆频道",天龙八部 [993ms]
 https://live.metshop.top/huya/20985816
-#EXTINF:-1 group-title="埋堆堆频道",天龙八部 [1248ms]
+#EXTINF:-1 group-title="埋堆堆频道",天龙八部 [1352ms]
 https://live.ottiptv.cc/huya/20985816
-#EXTINF:-1 group-title="埋堆堆频道",妙手仁心 [883ms]
+#EXTINF:-1 group-title="埋堆堆频道",妙手仁心 [1169ms]
 https://live.metshop.top/huya/29465853
-#EXTINF:-1 group-title="埋堆堆频道",寻秦记 [1176ms]
+#EXTINF:-1 group-title="埋堆堆频道",寻秦记 [811ms]
 https://live.metshop.top/huya/29465848
-#EXTINF:-1 group-title="埋堆堆频道",封神榜 [872ms]
-https://live.metshop.top/huya/29465849
-#EXTINF:-1 group-title="埋堆堆频道",封神榜 [1716ms]
-https://live.ottiptv.cc/huya/29465849
-#EXTINF:-1 group-title="埋堆堆频道",扫黄先锋 [1297ms]
+#EXTINF:-1 group-title="埋堆堆频道",射雕英雄传 [1225ms]
+https://live.metshop.top/huya/23824164
+#EXTINF:-1 group-title="埋堆堆频道",射雕英雄传 [1293ms]
+https://live.ottiptv.cc/huya/23824164
+#EXTINF:-1 group-title="埋堆堆频道",扫黄先锋 [939ms]
 https://live.metshop.top/huya/29465855
-#EXTINF:-1 group-title="埋堆堆频道",无心法师 [1154ms]
+#EXTINF:-1 group-title="埋堆堆频道",无心法师 [638ms]
 https://live.metshop.top/huya/30080233
-#EXTINF:-1 group-title="埋堆堆频道",楚汉骄雄 [979ms]
+#EXTINF:-1 group-title="埋堆堆频道",楚汉骄雄 [1218ms]
 https://live.metshop.top/huya/29465854
-#EXTINF:-1 group-title="埋堆堆频道",法政先锋 [1825ms]
+#EXTINF:-1 group-title="埋堆堆频道",法政先锋 [1206ms]
 https://live.metshop.top/huya/23863804
-#EXTINF:-1 group-title="埋堆堆频道",洗冤录 [884ms]
+#EXTINF:-1 group-title="埋堆堆频道",洗冤录 [953ms]
 https://live.metshop.top/huya/29465851
-#EXTINF:-1 group-title="埋堆堆频道",活佛济公3 [1048ms]
+#EXTINF:-1 group-title="埋堆堆频道",活佛济公3 [1014ms]
 https://live.metshop.top/huya/23903123
-#EXTINF:-1 group-title="埋堆堆频道",神雕侠侣 [1395ms]
+#EXTINF:-1 group-title="埋堆堆频道",神雕侠侣 [1218ms]
 http://live.ottiptv.cc/yy/1351762426
-#EXTINF:-1 group-title="埋堆堆频道",神雕侠侣 [1400ms]
+#EXTINF:-1 group-title="埋堆堆频道",神雕侠侣 [1351ms]
 https://live.ottiptv.cc/huya/11352964
-#EXTINF:-1 group-title="埋堆堆频道",笑傲江湖 [859ms]
-https://live.metshop.top/huya/23865142
-#EXTINF:-1 group-title="埋堆堆频道",笑傲江湖 [859ms]
-https://live.metshop.top/huya/26355790
-#EXTINF:-1 group-title="埋堆堆频道",笑傲江湖 [1558ms]
-https://live.ottiptv.cc/huya/26355790
-#EXTINF:-1 group-title="埋堆堆频道",笑看风云 [1142ms]
+#EXTINF:-1 group-title="埋堆堆频道",笑看风云 [1209ms]
 https://live.metshop.top/huya/29465858
-#EXTINF:-1 group-title="埋堆堆频道",西游记2 [1222ms]
+#EXTINF:-1 group-title="埋堆堆频道",西游记2 [849ms]
 https://live.metshop.top/huya/29465859
-#EXTINF:-1 group-title="埋堆堆频道",谈判专家 [3302ms]
+#EXTINF:-1 group-title="埋堆堆频道",谈判专家 [932ms]
 https://live.ottiptv.cc/yy/1382735560
-#EXTINF:-1 group-title="埋堆堆频道",野蛮亲家 [1183ms]
+#EXTINF:-1 group-title="埋堆堆频道",野蛮亲家 [933ms]
 https://live.metshop.top/huya/23863796
-#EXTINF:-1 group-title="埋堆堆频道",金枝欲孽 [1015ms]
+#EXTINF:-1 group-title="埋堆堆频道",金枝欲孽 [1129ms]
 https://live.metshop.top/huya/29465847
-#EXTINF:-1 group-title="埋堆堆频道",鉴证实录 [753ms]
+#EXTINF:-1 group-title="埋堆堆频道",鉴证实录 [925ms]
 https://live.metshop.top/huya/23903183
-#EXTINF:-1 group-title="埋堆堆频道",陀枪师姐 [901ms]
+#EXTINF:-1 group-title="埋堆堆频道",陀枪师姐 [944ms]
 https://live.metshop.top/huya/29465857
-#EXTINF:-1 group-title="埋堆堆频道",鹿鼎记 [510ms]
-https://live.ottiptv.cc/yy/28265277
 
 # 央视频道
-#EXTINF:-1 group-title="央视频道",CCTV13 [411ms]
-http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8
-#EXTINF:-1 group-title="央视频道",CCTV13 [1570ms]
-https://event.pull.hebtv.com/jishi/cp1.m3u8
-#EXTINF:-1 group-title="央视频道",CCTV15 [1166ms]
-http://gmxw.7766.org:808/hls/102/index.m3u8
-#EXTINF:-1 group-title="央视频道",CCTV5+ [367ms]
-http://223.78.65.165:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="央视频道",CCTV8 [453ms]
-http://124.165.251.82:85/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="央视频道",CCTV8 [1153ms]
-http://gmxw.7766.org:808/hls/96/index.m3u8
-#EXTINF:-1 group-title="央视频道",CGTN法语 [199ms]
+#EXTINF:-1 group-title="央视频道",CGTN法语 [180ms]
 http://espanol-liveali.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd.m3u8
-#EXTINF:-1 group-title="央视频道",CGTN西语 [91ms]
+#EXTINF:-1 group-title="央视频道",CGTN西语 [80ms]
 https://0472.org/hls/cgtnx.m3u8
-#EXTINF:-1 group-title="央视频道",CGTN阿语 [108ms]
+#EXTINF:-1 group-title="央视频道",CGTN阿语 [66ms]
 https://0472.org/hls/cgtna.m3u8
-#EXTINF:-1 group-title="央视频道",支持作者 [3117ms]
+#EXTINF:-1 group-title="央视频道",支持作者 [906ms]
 https://vd2.bdstatic.com/mda-sctj0f6r4u1bpebc/1080p/cae_h264/1774706523506678171/mda-sctj0f6r4u1bpebc.mp4
 
-# 娱乐
-#EXTINF:-1 group-title="娱乐",CCTV3 [153ms]
-http://74.91.26.218:82/live/cctv3hd.m3u8
-#EXTINF:-1 group-title="娱乐",CCTV3 [1532ms]
-http://222.169.85.8:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
+# 安徽频道
+#EXTINF:-1 group-title="安徽频道",亳州农村 [506ms]
+http://zbbf2.ahbztv.com/live/418.m3u8
+#EXTINF:-1 group-title="安徽频道",亳州农村 [724ms]
+http://zbbf2.ahbztv.com/live/418.m3u8?zanhd
 
 # 宗教
-#EXTINF:-1 group-title="宗教",ABN China (720p) [185ms]
+#EXTINF:-1 group-title="宗教",ABN China (720p) [61ms]
 https://mediaserver.abnvideos.com/streams/abnchina.m3u8
-#EXTINF:-1 group-title="宗教",Ando TV (1080p) [655ms]
+#EXTINF:-1 group-title="宗教",Ando TV (1080p) [499ms]
 http://play.kankanlive.com/live/1711956137852982.m3u8
-#EXTINF:-1 group-title="宗教",Angel TV Chinese (720p) [1013ms]
+#EXTINF:-1 group-title="宗教",Angel TV Chinese (720p) [918ms]
 https://janya-digimix.akamaized.net/vglive-sk-999451/chinese/ngrp:angelchinese_all/playlist.m3u8
 
 # 少儿
-#EXTINF:-1 group-title="少儿",名侦探柯南 [976ms]
+#EXTINF:-1 group-title="少儿",中华小当家 [727ms]
+https://live.ottiptv.cc/huya/11342413
+#EXTINF:-1 group-title="少儿",中华小当家 [1199ms]
+https://live.metshop.top/huya/11342413
+#EXTINF:-1 group-title="少儿",名侦探柯南 [1184ms]
 https://live.ottiptv.cc/huya/30080236
-#EXTINF:-1 group-title="少儿",哆啦A梦 [1327ms]
+#EXTINF:-1 group-title="少儿",哆啦A梦 [1524ms]
 https://live.ottiptv.cc/huya/11601963
-#EXTINF:-1 group-title="少儿",喜羊羊与灰太狼 [1694ms]
+#EXTINF:-1 group-title="少儿",喜羊羊与灰太狼 [926ms]
 https://live.ottiptv.cc/huya/23865080
-#EXTINF:-1 group-title="少儿",浙江少儿 [382ms]
-http://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
-#EXTINF:-1 group-title="少儿",浙江少儿 [588ms]
-http://ali-vl.cztv.com/channels/lantian/channel008/360p.m3u8
-#EXTINF:-1 group-title="少儿",浙江少儿 [808ms]
+#EXTINF:-1 group-title="少儿",浙江少儿 [991ms]
 https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
-#EXTINF:-1 group-title="少儿",灌篮高手 [2306ms]
+#EXTINF:-1 group-title="少儿",灌篮高手 [2170ms]
 https://live.ottiptv.cc/yy/1382735626
-#EXTINF:-1 group-title="少儿",福州少儿 [2766ms]
-http://live.zohi.tv/video/s10001-fztv-4/index.m3u8
-#EXTINF:-1 group-title="少儿",精灵宝可梦 [758ms]
+#EXTINF:-1 group-title="少儿",精灵宝可梦 [686ms]
 https://live.ottiptv.cc/huya/23749096
-#EXTINF:-1 group-title="少儿",金鹰卡通 [451ms]
-http://125.43.249.76:9901/tsfile/live/1040_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="少儿",韩国EBS少儿 [1021ms]
+#EXTINF:-1 group-title="少儿",韩国EBS少儿 [1303ms]
 http://ebsonairios.ebs.co.kr/ebsutablet500k/tablet500k/playlist.m3u8
-#EXTINF:-1 group-title="少儿",黑龙江少儿 [1635ms]
-https://ls.qingting.fm/live/4972/64k.m3u8
 
 # 广东频道
-#EXTINF:-1 group-title="广东频道",东莞新闻综合 [5069ms]
+#EXTINF:-1 group-title="广东频道",东莞新闻综合 [4227ms]
 https://stream.sun0769.com/dgrtv1/mp4tv1_800/index.m3u8
-#EXTINF:-1 group-title="广东频道",南国都市 [806ms]
+#EXTINF:-1 group-title="广东频道",南国都市 [839ms]
 http://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=140110ae3d6c936a77f94c4f4d85b0d3&txTime=18d57929bd4
-#EXTINF:-1 group-title="广东频道",大湾区卫视 [445ms]
+#EXTINF:-1 group-title="广东频道",大湾区卫视 [508ms]
 http://222.128.55.152:9080/live/dwq.m3u8
-#EXTINF:-1 group-title="广东频道",广州新闻 [792ms]
+#EXTINF:-1 group-title="广东频道",广州新闻 [958ms]
 http://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=d2c2db0b598c02ec1b5623728434d367&txTime=18d57929bd3
-#EXTINF:-1 group-title="广东频道",广州综合 [936ms]
+#EXTINF:-1 group-title="广东频道",广州综合 [729ms]
 http://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=c8dbe86d6f86eb1a21999ab479fd5667&txTime=18d3c4690e8
-#EXTINF:-1 group-title="广东频道",广州综合 [1032ms]
-https://tencentplaybusiness.gztv.com/live/zonghes.m3u8
-#EXTINF:-1 group-title="广东频道",广州综合 [1070ms]
-https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=439b0fd2cf766b363c93a59cbcbe1370&txTime=18d00acf488
 
 # 数字频道
-#EXTINF:-1 group-title="数字频道",1905电影网 [6535ms]
+#EXTINF:-1 group-title="数字频道",1905电影网 [4257ms]
 http://8.138.7.223/tv/1905.php?id=LIVEOYY31H24H48NE
-#EXTINF:-1 group-title="数字频道",CCTV6 [6734ms]
+#EXTINF:-1 group-title="数字频道",1905电影网 [5065ms]
+http://8.138.7.223/tv/1905.php?id=LIVE8J4LTCXPI7QJ5
+#EXTINF:-1 group-title="数字频道",CCTV6 [6187ms]
 http://8.138.7.223/tv/1905.php?id=LIVE3YPYZ30E7V1R0
-#EXTINF:-1 group-title="数字频道",新视觉 [576ms]
-http://120.76.248.139/live/bfgd/4200000249.m3u8
-#EXTINF:-1 group-title="数字频道",纪实科教 [425ms]
-http://120.76.248.139/live/bfgd/4200000113.m3u8
-#EXTINF:-1 group-title="数字频道",重温经典 [1981ms]
+#EXTINF:-1 group-title="数字频道",四川科教 [842ms]
+http://182.150.115.21:8030/pcgacg/pcgacg_0.m3u8
+#EXTINF:-1 group-title="数字频道",重温经典 [2879ms]
 http://8.138.7.223/tv/cwjd.php
 
 # 文化
-#EXTINF:-1 group-title="文化",Lanzhou Culture & Tourism Channel [3805ms]
+#EXTINF:-1 group-title="文化",Lanzhou Culture & Tourism Channel [1692ms]
 https://liveplus.lzr.com.cn/wlpd/HD/live.m3u8
 
 # 斗鱼影视
-#EXTINF:-1 group-title="斗鱼影视",冰冰影剧 [1432ms]
+#EXTINF:-1 group-title="斗鱼影视",冰冰影剧 [1310ms]
 http://www.goodiptv.club/douyu/74374
-#EXTINF:-1 group-title="斗鱼影视",刀刀影院 [1572ms]
+#EXTINF:-1 group-title="斗鱼影视",刀刀影院 [2921ms]
 http://www.goodiptv.club/douyu/747764
-#EXTINF:-1 group-title="斗鱼影视",华语影视 [1278ms]
+#EXTINF:-1 group-title="斗鱼影视",华语影视 [1099ms]
 http://www.goodiptv.club/douyu/3928
-#EXTINF:-1 group-title="斗鱼影视",古装武侠 [1706ms]
+#EXTINF:-1 group-title="斗鱼影视",古装武侠 [1342ms]
 http://www.goodiptv.club/douyu/2793084
-#EXTINF:-1 group-title="斗鱼影视",斗鱼港剧 [791ms]
+#EXTINF:-1 group-title="斗鱼影视",斗鱼港剧 [714ms]
 http://www.goodiptv.club/douyu/5061550
-#EXTINF:-1 group-title="斗鱼影视",橙记港剧 [1632ms]
+#EXTINF:-1 group-title="斗鱼影视",橙记港剧 [1548ms]
 http://www.goodiptv.club/douyu/4549169
-#EXTINF:-1 group-title="斗鱼影视",热门港剧 [1433ms]
+#EXTINF:-1 group-title="斗鱼影视",热门港剧 [1304ms]
 http://www.goodiptv.club/douyu/5522351
-#EXTINF:-1 group-title="斗鱼影视",经典剧集 [1041ms]
+#EXTINF:-1 group-title="斗鱼影视",经典剧集 [936ms]
 http://www.goodiptv.club/douyu/6863367
-#EXTINF:-1 group-title="斗鱼影视",贝爷求生 [2307ms]
-http://www.goodiptv.club/douyu/9661369
-#EXTINF:-1 group-title="斗鱼影视",邵氏影院 [1373ms]
+#EXTINF:-1 group-title="斗鱼影视",邵氏影院 [1229ms]
 http://www.goodiptv.club/douyu/4246519
 
 # 新闻
-#EXTINF:-1 group-title="新闻",CCTV+ 1 (600p) [Not 24/7] [527ms]
-https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
-#EXTINF:-1 group-title="新闻",CCTV+ 2 (600p) [Not 24/7] [522ms]
+#EXTINF:-1 group-title="新闻",CCTV+ 2 (600p) [Not 24/7] [561ms]
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8
-#EXTINF:-1 group-title="新闻",Chifeng Comprehensive News Chanel [564ms]
+#EXTINF:-1 group-title="新闻",Chifeng Comprehensive News Chanel [1361ms]
 http://play1-qk.nmtv.cn/live/1735546697341033.m3u8
-#EXTINF:-1 group-title="新闻",Chuxiong News Channel [Not 24/7] [588ms]
+#EXTINF:-1 group-title="新闻",Chuxiong News Channel [Not 24/7] [1160ms]
 http://hwapi.yntv.net/ew265l/848y54.m3u8
-#EXTINF:-1 group-title="新闻",Dongguan Comprehensive News Channel [479ms]
+#EXTINF:-1 group-title="新闻",Dongguan Comprehensive News Channel [1953ms]
 http://stream.sun0769.com/dgrtv1/mp4tv1_1500.flv
-#EXTINF:-1 group-title="新闻",Harbin Comprehensive News Channel [1001ms]
+#EXTINF:-1 group-title="新闻",Harbin Comprehensive News Channel [1261ms]
 https://stream.hrbtv.net/xwzh/playlist.m3u8?_upt=ef41dd531755913594
-#EXTINF:-1 group-title="新闻",Lanzhou Comprehensive News Channel [3806ms]
+#EXTINF:-1 group-title="新闻",Jingmen Comprehensive News Channel [1029ms]
+https://stream.jmtv.com.cn/xwzh/sd/live.m3u8?_upt=341f4b8e1791883036
+#EXTINF:-1 group-title="新闻",Lanzhou Comprehensive News Channel [1706ms]
 https://liveplus.lzr.com.cn/xwzh/HD/live.m3u8
 
 # 春晚频道
-#EXTINF:-1 group-title="春晚频道",1987年春晚 [296ms]
+#EXTINF:-1 group-title="春晚频道",1987年春晚 [521ms]
 https://txmov2.a.kwimgs.com/bs3/video-hls/5195746663405928031_hlsb.m3u8
-#EXTINF:-1 group-title="春晚频道",1988年春晚 [296ms]
+#EXTINF:-1 group-title="春晚频道",1988年春晚 [541ms]
 https://txmov2.a.kwimgs.com/bs3/video-hls/5216575810935394655_hlsb.m3u8
-#EXTINF:-1 group-title="春晚频道",1989年春晚 [291ms]
+#EXTINF:-1 group-title="春晚频道",1989年春晚 [519ms]
 https://txmov2.a.kwimgs.com/bs3/video-hls/5194620763762726260_hlsb.m3u8
-#EXTINF:-1 group-title="春晚频道",1993年春晚 [339ms]
+#EXTINF:-1 group-title="春晚频道",1993年春晚 [230ms]
 https://alimov2.a.kwimgs.com/upic/2023/01/13/22/BMjAyMzAxMTMyMjEwMDNfNDAzMDAxOTlfOTM1MTIzMzYwODJfMF8z_b_B647d10e431b4cc5e48e6c77347d69021.mp4
-#EXTINF:-1 group-title="春晚频道",1994年春晚 [334ms]
+#EXTINF:-1 group-title="春晚频道",1994年春晚 [227ms]
 https://alimov2.a.kwimgs.com/upic/2023/01/13/22/BMjAyMzAxMTMyMjEwMDNfNDAzMDAxOTlfOTM1MTIzMzYxMjNfMF8z_b_B3dde97f36273f04403d4dc5eec611a35.mp4
-#EXTINF:-1 group-title="春晚频道",1995年春晚 [293ms]
+#EXTINF:-1 group-title="春晚频道",1995年春晚 [229ms]
 https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQwNzVfMF8z_b_B811c0dec6b9a3d3074a18522c185010a.mp4
-#EXTINF:-1 group-title="春晚频道",1996年春晚 [115ms]
+#EXTINF:-1 group-title="春晚频道",1996年春晚 [213ms]
 https://alimov2.a.kwimgs.com/upic/2023/01/13/22/BMjAyMzAxMTMyMjEwMDNfNDAzMDAxOTlfOTM1MTIzMzYxNTJfMF8z_b_Bd841eae10ab1c9955ef55fbedfae6c45.mp4
-#EXTINF:-1 group-title="春晚频道",2000年春晚 [61ms]
+#EXTINF:-1 group-title="春晚频道",2000年春晚 [200ms]
 https://alimov2.a.kwimgs.com/upic/2023/01/13/21/BMjAyMzAxMTMyMTE4MzRfNDAzMDAxOTlfOTM1MDY4ODIxMTNfMF8z_b_Bdddf4e7ef0ff6cfd477857bb40e78419.mp4
-#EXTINF:-1 group-title="春晚频道",2001年春晚 [61ms]
+#EXTINF:-1 group-title="春晚频道",2001年春晚 [174ms]
 https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQyMDFfMF8z_b_B70592cb7c4054e9cabb675e849bbf4bd.mp4
-#EXTINF:-1 group-title="春晚频道",2002年春晚 [49ms]
+#EXTINF:-1 group-title="春晚频道",2002年春晚 [147ms]
 https://alimov2.a.kwimgs.com/upic/2023/01/13/21/BMjAyMzAxMTMyMTE4MzRfNDAzMDAxOTlfOTM1MDY4ODIxNDdfMF8z_b_Ba6271d10b7e6cfae83759033a091f257.mp4
-#EXTINF:-1 group-title="春晚频道",2003年春晚 [56ms]
+#EXTINF:-1 group-title="春晚频道",2003年春晚 [68ms]
 https://alimov2.a.kwimgs.com/upic/2023/01/14/23/BMjAyMzAxMTQyMzQxNDdfNDAzMDAxOTlfOTM2MTU0MTk1NDFfMF8z_b_B182749d2cd2ea9323639254af385f24b.mp4
-#EXTINF:-1 group-title="春晚频道",2004年春晚 [235ms]
+#EXTINF:-1 group-title="春晚频道",2004年春晚 [84ms]
 https://alimov2.a.kwimgs.com/upic/2023/01/13/21/BMjAyMzAxMTMyMTE4MzRfNDAzMDAxOTlfOTM1MDY4ODIxOTVfMF8z_b_B86c4430b82ff5a7f4e8132f6ee558536.mp4
-#EXTINF:-1 group-title="春晚频道",2005年春晚 [236ms]
+#EXTINF:-1 group-title="春晚频道",2005年春晚 [84ms]
 https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQyMzhfMF8z_b_B35ad7cc86aec8fc9e5ddfb31fc7bed63.mp4
-#EXTINF:-1 group-title="春晚频道",2006年春晚 [236ms]
+#EXTINF:-1 group-title="春晚频道",2006年春晚 [83ms]
 https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQyNzlfMF8z_b_Bbc3703fc331dc994c50859c19aad28ff.mp4
-#EXTINF:-1 group-title="春晚频道",2007年春晚 [234ms]
+#EXTINF:-1 group-title="春晚频道",2007年春晚 [77ms]
 https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQzMjNfMF8z_b_B00b069c7899976459ceeaa99353dfefe.mp4
-#EXTINF:-1 group-title="春晚频道",2009年春晚 [232ms]
+#EXTINF:-1 group-title="春晚频道",2009年春晚 [78ms]
 https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQzOTBfMF8z_b_B29a36a85e0277f6c2a1f033ef7c10708.mp4
-#EXTINF:-1 group-title="春晚频道",2010年春晚 [225ms]
+#EXTINF:-1 group-title="春晚频道",2010年春晚 [76ms]
 https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQ0MjlfMF8z_b_B8818807a00eed329a69fb494f405bd43.mp4
-#EXTINF:-1 group-title="春晚频道",2013年春晚 [189ms]
+#EXTINF:-1 group-title="春晚频道",2013年春晚 [213ms]
 https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQ1NjNfMF8z_b_B4fea55408dca4471a68a963ae096be59.mp4
-#EXTINF:-1 group-title="春晚频道",2014年春晚 [191ms]
+#EXTINF:-1 group-title="春晚频道",2014年春晚 [212ms]
 https://alimov2.a.kwimgs.com/upic/2023/01/06/16/BMjAyMzAxMDYxNjMxMTNfNDAzMDAxOTlfOTI4OTY2ODAzNjlfMF8z_b_Bdee65c77f9e7b2120a185c919dad81d2.mp4
-#EXTINF:-1 group-title="春晚频道",2018年春晚 [82ms]
+#EXTINF:-1 group-title="春晚频道",2018年春晚 [207ms]
 https://alimov2.a.kwimgs.com/upic/2023/01/06/16/BMjAyMzAxMDYxNjMxMTRfNDAzMDAxOTlfOTI4OTY2ODE2MTBfMF8z_b_B11a778e34390a21de42d407e94f45b91.mp4
-#EXTINF:-1 group-title="春晚频道",2024年春晚 [3393ms]
+#EXTINF:-1 group-title="春晚频道",2024年春晚 [3614ms]
 https://p2.bdstatic.com/rtmp.liveshow.lss-user.baidubce.com/live/stream_bduid_6488563992_8982723413/merged_1707497046297_88536_25144_41936.m3u8
 
 # 江苏频道
-#EXTINF:-1 group-title="江苏频道",苏州文化生活 [868ms]
+#EXTINF:-1 group-title="江苏频道",南京教科 [1034ms]
+http://nklive.nbs.cn/hls/75b3c462-b831-4de7-a34b-5d3221db2069/index.m3u8
+#EXTINF:-1 group-title="江苏频道",南京新闻综合 [479ms]
+http://nklive.nbs.cn/hls/d511bc9d-a694-4453-b3a2-4fc842cc97a1/index.m3u8
+#EXTINF:-1 group-title="江苏频道",苏州文化生活 [481ms]
 https://live-auth.51kandianshi.com/szgd/csztv3.m3u8
-#EXTINF:-1 group-title="江苏频道",苏州新闻综合 [748ms]
+#EXTINF:-1 group-title="江苏频道",苏州新闻综合 [528ms]
 https://live-auth.51kandianshi.com/szgd/csztv1.m3u8
-#EXTINF:-1 group-title="江苏频道",苏州生活资讯 [1000ms]
+#EXTINF:-1 group-title="江苏频道",苏州生活资讯 [840ms]
 https://live-auth.51kandianshi.com/szgd/csztv5.m3u8
-#EXTINF:-1 group-title="江苏频道",苏州社会经济 [917ms]
+#EXTINF:-1 group-title="江苏频道",苏州社会经济 [741ms]
 https://live-auth.51kandianshi.com/szgd/csztv2.m3u8
 
 # 河北频道
-#EXTINF:-1 group-title="河北频道",昌黎综合 [688ms]
+#EXTINF:-1 group-title="河北频道",昌黎综合 [1547ms]
 https://jwcdnqx.hebyun.com.cn/live/clzhpd/1500k/tzwj_video.m3u8
-#EXTINF:-1 group-title="河北频道",邢台生活 [1406ms]
+#EXTINF:-1 group-title="河北频道",河北农民 [604ms]
+http://ls.qingting.fm/live/1650.m3u8
+#EXTINF:-1 group-title="河北频道",河北农民 [631ms]
+https://ls.qingting.fm/live/1650/64k.m3u8
+#EXTINF:-1 group-title="河北频道",河北农民 [795ms]
+https://jwcdnqx.hebyun.com.cn/live/clzhpd/1500k/tzwj_video.m3u8?zhebd
+#EXTINF:-1 group-title="河北频道",邢台生活 [1649ms]
 https://jwcdnqx.hebyun.com.cn/live/xtcsshpd/1500k/tzwj_video.m3u8
-#EXTINF:-1 group-title="河北频道",邯郸公共频道 [1080ms]
+#EXTINF:-1 group-title="河北频道",邢台综合 [788ms]
+https://jwplay.hebyun.com.cn:443/live/xtsrmtzs/1500k/tzwj_video.m3u8
+#EXTINF:-1 group-title="河北频道",邢台综合 [1144ms]
+http://jwplay.hebyun.com.cn/live/xtsrmtzs/1500k/tzwj_video.m3u8
+#EXTINF:-1 group-title="河北频道",邯郸公共频道 [1445ms]
 https://jwcdnqx.hebyun.com.cn/live/hdgg/1500k/tzwj_video.m3u8
-#EXTINF:-1 group-title="河北频道",邯郸科技教育 [964ms]
+#EXTINF:-1 group-title="河北频道",邯郸新闻 [760ms]
+https://jwcdnqx.hebyun.com.cn/live/hdxwzh/1500k/tzwj_video.m3u8
+#EXTINF:-1 group-title="河北频道",邯郸科技教育 [1434ms]
 https://jwcdnqx.hebyun.com.cn/live/hdkj/1500k/tzwj_video.m3u8
 
 # 浙江频道
-#EXTINF:-1 group-title="浙江频道",钱江都市 [935ms]
+#EXTINF:-1 group-title="浙江频道",之江纪录 [807ms]
+https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
+#EXTINF:-1 group-title="浙江频道",云和新闻综合 [720ms]
+http://l.cztvcloud.com/channels/lantian/SXyunhe1/720p.m3u8?zzhed
+#EXTINF:-1 group-title="浙江频道",云和新闻综合 [4480ms]
+http://l.cztvcloud.com/channels/lantian/SXyunhe1/720p.m3u8
+#EXTINF:-1 group-title="浙江频道",余姚姚江文化 [658ms]
+http://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8?zzhed
+#EXTINF:-1 group-title="浙江频道",余姚姚江文化 [1151ms]
+https://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8
+#EXTINF:-1 group-title="浙江频道",余杭未来E [1484ms]
+http://l.cztvcloud.com/channels/lantian/SXyuhang3/720p.m3u8?zzhed
+#EXTINF:-1 group-title="浙江频道",余杭未来E [1972ms]
+http://l.cztvcloud.com/channels/lantian/SXyuhang3/720p.m3u8
+#EXTINF:-1 group-title="浙江频道",嘉兴新闻综合 [1799ms]
+http://live.zohi.tv/video/s10001-fztv-1/index.m3u8
+#EXTINF:-1 group-title="浙江频道",嘉兴新闻综合 [2139ms]
+http://tvfile.jyrmt.cn:80/nmip-media/channellive/channel104452/playlist.m3u8
+#EXTINF:-1 group-title="浙江频道",嵊泗综合 [525ms]
+http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8?zzhed
+#EXTINF:-1 group-title="浙江频道",嵊泗综合 [1526ms]
+http://l.cztvcloud.com/channels/lantian/SXshengsi1/720p.m3u8
+#EXTINF:-1 group-title="浙江频道",平湖民生休闲 [727ms]
+http://l.cztvcloud.com/channels/lantian/SXpinghu2/720p.m3u8
+#EXTINF:-1 group-title="浙江频道",平湖民生休闲 [749ms]
+http://l.cztvcloud.com/channels/lantian/SXpinghu2/720p.m3u8?zzhed
+#EXTINF:-1 group-title="浙江频道",文成新闻综合 [4516ms]
+http://l.cztvcloud.com/channels/lantian/SXwencheng1/720p.m3u8
+#EXTINF:-1 group-title="浙江频道",文成综合 [905ms]
+http://l.cztvcloud.com/channels/lantian/SXwencheng1/720p.m3u8?zzhed?
+#EXTINF:-1 group-title="浙江频道",文成综合 [1226ms]
+http://l.cztvcloud.com/channels/lantian/SXwencheng1/720p.m3u8?zzhed
+#EXTINF:-1 group-title="浙江频道",松阳综合 [985ms]
+http://l.cztvcloud.com/channels/lantian/SXsongyang1/720p.m3u8?zzhed?
+#EXTINF:-1 group-title="浙江频道",松阳综合 [1049ms]
+http://l.cztvcloud.com/channels/lantian/SXsongyang1/720p.m3u8
+#EXTINF:-1 group-title="浙江频道",浙江国际 [866ms]
+https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
+#EXTINF:-1 group-title="浙江频道",浙江教科影视 [802ms]
+https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
+#EXTINF:-1 group-title="浙江频道",浙江民生休闲 [790ms]
+https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
+#EXTINF:-1 group-title="浙江频道",浙江钱江都市 [1293ms]
+http://ali-xwl.cztv.com/live/channel021080Plxw.m3u8
+#EXTINF:-1 group-title="浙江频道",浙江钱江都市 [1451ms]
+http://ali-xwl.cztv.com/live/channel02720Plxw.m3u8
+#EXTINF:-1 group-title="浙江频道",缙云综合 [710ms]
+http://l.cztvcloud.com/channels/lantian/SXjinyun1/720p.m3u8?zzhed?
+#EXTINF:-1 group-title="浙江频道",缙云综合 [5475ms]
+http://l.cztvcloud.com/channels/lantian/SXjinyun1/720p.m3u8?zzhed
+#EXTINF:-1 group-title="浙江频道",萧山生活 [1087ms]
+http://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8?zzhed?
+#EXTINF:-1 group-title="浙江频道",萧山生活 [1524ms]
+http://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8?zzhed
+#EXTINF:-1 group-title="浙江频道",萧山生活 [1695ms]
+http://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
+#EXTINF:-1 group-title="浙江频道",萧山综合 [4592ms]
+http://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8
+#EXTINF:-1 group-title="浙江频道",诸暨新闻综合 [3773ms]
+http://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8?zzhed
+#EXTINF:-1 group-title="浙江频道",诸暨新闻综合 [5947ms]
+https://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8
+#EXTINF:-1 group-title="浙江频道",象山新闻综合 [4575ms]
+http://l.cztvcloud.com/channels/lantian/SXxiangshan1/720p.m3u8
+#EXTINF:-1 group-title="浙江频道",钱江都市 [805ms]
 https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
-#EXTINF:-1 group-title="浙江频道",青田电视台 [3470ms]
+#EXTINF:-1 group-title="浙江频道",青田电视台 [5545ms]
 http://l.cztvcloud.com/channels/lantian/SXqingtian1/720p.m3u8
+#EXTINF:-1 group-title="浙江频道",龙游新闻综合 [2344ms]
+http://l.cztvcloud.com/channels/lantian/SXlongyou1/720p.m3u8?zzhed
+#EXTINF:-1 group-title="浙江频道",龙游新闻综合 [5477ms]
+https://l.cztvcloud.com/channels/lantian/SXlongyou1/720p.m3u8
+#EXTINF:-1 group-title="浙江频道",龙游生活娱乐 [2609ms]
+http://l.cztvcloud.com/channels/lantian/SXlongyou2/720p.m3u8?zzhed
+#EXTINF:-1 group-title="浙江频道",龙游生活娱乐 [5142ms]
+https://l.cztvcloud.com/channels/lantian/SXlongyou2/720p.m3u8
 
 # 港澳代理
-#EXTINF:-1 group-title="港澳代理",TVB Plus [1177ms]
+#EXTINF:-1 group-title="港澳代理",TVB Plus [278ms]
 http://r.jdshipin.com/Nr5jq
-#EXTINF:-1 group-title="港澳代理",ViuTV [353ms]
+#EXTINF:-1 group-title="港澳代理",ViuTV [302ms]
 http://r.jdshipin.com/TcKr2
-#EXTINF:-1 group-title="港澳代理",ViuTV [366ms]
+#EXTINF:-1 group-title="港澳代理",ViuTV [350ms]
 http://r.jdshipin.com/vSJvl
-#EXTINF:-1 group-title="港澳代理",凤凰中文 [250ms]
+#EXTINF:-1 group-title="港澳代理",凤凰中文 [286ms]
 http://r.jdshipin.com/cCCzW
-#EXTINF:-1 group-title="港澳代理",无线新闻 [244ms]
+#EXTINF:-1 group-title="港澳代理",无线新闻 [287ms]
 http://r.jdshipin.com/CkuBd
-#EXTINF:-1 group-title="港澳代理",澳视卫星 [233ms]
+#EXTINF:-1 group-title="港澳代理",澳视卫星 [272ms]
 http://r.jdshipin.com/QFhCq
 
 # 港澳台频道
-#EXTINF:-1 group-title="港澳台频道",Astro AOD [165ms]
+#EXTINF:-1 group-title="港澳台频道",Astro AOD [101ms]
 http://php.jdshipin.com/TVOD/iptv.php?id=aod
-#EXTINF:-1 group-title="港澳台频道",HOY TV [161ms]
+#EXTINF:-1 group-title="港澳台频道",HOY TV [127ms]
 http://php.jdshipin.com/TVOD/iptv.php?id=hoytv
-#EXTINF:-1 group-title="港澳台频道",HOY TV [717ms]
+#EXTINF:-1 group-title="港澳台频道",HOY TV [283ms]
 http://r.jdshipin.com/sFw4S
-#EXTINF:-1 group-title="港澳台频道",RTHK31 [164ms]
+#EXTINF:-1 group-title="港澳台频道",RTHK31 [84ms]
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk31
-#EXTINF:-1 group-title="港澳台频道",RTHK32 [158ms]
+#EXTINF:-1 group-title="港澳台频道",RTHK32 [99ms]
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk32
-#EXTINF:-1 group-title="港澳台频道",TVBS新闻台 [324ms]
+#EXTINF:-1 group-title="港澳台频道",TVBS新闻台 [388ms]
 http://61.221.215.25:8800/hls/9/index.m3u8
-#EXTINF:-1 group-title="港澳台频道",TVB娱乐新闻台 [190ms]
+#EXTINF:-1 group-title="港澳台频道",TVB娱乐新闻台 [97ms]
 http://php.jdshipin.com/TVOD/iptv.php?id=tvbylxw
-#EXTINF:-1 group-title="港澳台频道",TVB星河 [161ms]
+#EXTINF:-1 group-title="港澳台频道",TVB星河 [81ms]
 http://php.jdshipin.com/TVOD/iptv.php?id=xinghe
-#EXTINF:-1 group-title="港澳台频道",TVB星河 [243ms]
+#EXTINF:-1 group-title="港澳台频道",TVB星河 [284ms]
 http://r.jdshipin.com/sXuuD
-#EXTINF:-1 group-title="港澳台频道",TVB星河 [1270ms]
+#EXTINF:-1 group-title="港澳台频道",TVB星河 [297ms]
 http://r.jdshipin.com/Voac4
-#EXTINF:-1 group-title="港澳台频道",VIUTV [158ms]
-http://php.jdshipin.com/TVOD/iptv.php?id=viutv
-#EXTINF:-1 group-title="港澳台频道",VIUTV [162ms]
+#EXTINF:-1 group-title="港澳台频道",VIUTV [100ms]
 http://php.jdshipin.com/TVOD/iptv.php?id=viutv2
-#EXTINF:-1 group-title="港澳台频道",三立戏剧 [338ms]
+#EXTINF:-1 group-title="港澳台频道",VIUTV [102ms]
+http://php.jdshipin.com/TVOD/iptv.php?id=viutv
+#EXTINF:-1 group-title="港澳台频道",三立戏剧 [385ms]
 http://61.221.215.25:8800/hls/41/index.m3u8
-#EXTINF:-1 group-title="港澳台频道",亚洲武侠 [150ms]
+#EXTINF:-1 group-title="港澳台频道",亚洲武侠 [105ms]
 http://php.jdshipin.com/TVOD/iptv.php?id=yzwx
-#EXTINF:-1 group-title="港澳台频道",人间卫视 [496ms]
+#EXTINF:-1 group-title="港澳台频道",人间卫视 [561ms]
 http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u
-#EXTINF:-1 group-title="港澳台频道",凤凰卫视 [163ms]
+#EXTINF:-1 group-title="港澳台频道",凤凰卫视 [86ms]
 http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
-#EXTINF:-1 group-title="港澳台频道",凤凰资讯 [194ms]
+#EXTINF:-1 group-title="港澳台频道",凤凰资讯 [96ms]
 http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
-#EXTINF:-1 group-title="港澳台频道",凤凰资讯 [248ms]
+#EXTINF:-1 group-title="港澳台频道",凤凰资讯 [299ms]
 http://r.jdshipin.com/0Rp07
-#EXTINF:-1 group-title="港澳台频道",华丽翡翠台 [179ms]
+#EXTINF:-1 group-title="港澳台频道",凤凰香港 [88ms]
+http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
+#EXTINF:-1 group-title="港澳台频道",凤凰香港 [120ms]
+https://epg.pw/stream/5f16dc7fc8aaaed3205516c63e4a8c24bca9dbba1181684244729cf574505b0e.m3u8
+#EXTINF:-1 group-title="港澳台频道",凤凰香港 [290ms]
+http://r.jdshipin.com/NfC0f
+#EXTINF:-1 group-title="港澳台频道",华丽翡翠台 [86ms]
 http://php.jdshipin.com/TVOD/iptv.php?id=huali2
-#EXTINF:-1 group-title="港澳台频道",华丽翡翠台 [589ms]
+#EXTINF:-1 group-title="港澳台频道",华丽翡翠台 [269ms]
 http://r.jdshipin.com/thuYX
-#EXTINF:-1 group-title="港澳台频道",台视新闻 [70ms]
+#EXTINF:-1 group-title="港澳台频道",台视新闻 [124ms]
 http://38.64.72.148/hls/modn/list/4013/chunklist1.m3u8
-#EXTINF:-1 group-title="港澳台频道",无线新闻台 [164ms]
+#EXTINF:-1 group-title="港澳台频道",无线新闻台 [97ms]
 http://php.jdshipin.com/TVOD/iptv.php?id=wxxw
-#EXTINF:-1 group-title="港澳台频道",明珠台 [162ms]
+#EXTINF:-1 group-title="港澳台频道",明珠台 [114ms]
 http://php.jdshipin.com/TVOD/iptv.php?id=mzt2
-#EXTINF:-1 group-title="港澳台频道",明珠台 [1149ms]
+#EXTINF:-1 group-title="港澳台频道",明珠台 [283ms]
 http://r.jdshipin.com/ZQ4kN
-#EXTINF:-1 group-title="港澳台频道",澳视澳门 [185ms]
+#EXTINF:-1 group-title="港澳台频道",澳视澳门 [87ms]
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=asam
-#EXTINF:-1 group-title="港澳台频道",澳视澳门 [227ms]
+#EXTINF:-1 group-title="港澳台频道",澳视澳门 [274ms]
 http://r.jdshipin.com/n2YZI
-#EXTINF:-1 group-title="港澳台频道",澳门卫视 [150ms]
+#EXTINF:-1 group-title="港澳台频道",澳门卫视 [87ms]
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=as
-#EXTINF:-1 group-title="港澳台频道",环球电视 [701ms]
+#EXTINF:-1 group-title="港澳台频道",环球电视 [764ms]
 http://utv1.hqtvzb.com:9999/hls/world.m3u8
-#EXTINF:-1 group-title="港澳台频道",纬来精采台 [335ms]
+#EXTINF:-1 group-title="港澳台频道",纬来精采台 [395ms]
 http://61.221.215.25:8800/hls/48/index.m3u8
-#EXTINF:-1 group-title="港澳台频道",美亚C+ [577ms]
+#EXTINF:-1 group-title="港澳台频道",美亚C+ [737ms]
 http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/03.m3u8
-#EXTINF:-1 group-title="港澳台频道",翡翠台 [157ms]
-http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct4
-#EXTINF:-1 group-title="港澳台频道",翡翠台 [178ms]
+#EXTINF:-1 group-title="港澳台频道",翡翠台 [86ms]
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3
-#EXTINF:-1 group-title="港澳台频道",翡翠台 [236ms]
-http://r.jdshipin.com/qClQf
-#EXTINF:-1 group-title="港澳台频道",翡翠台北美版 [166ms]
+#EXTINF:-1 group-title="港澳台频道",翡翠台 [110ms]
+http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct4
+#EXTINF:-1 group-title="港澳台频道",翡翠台 [275ms]
+http://r.jdshipin.com/n90gt
+#EXTINF:-1 group-title="港澳台频道",翡翠台北美版 [82ms]
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=j1
-#EXTINF:-1 group-title="港澳台频道",耀才财经 [1164ms]
+#EXTINF:-1 group-title="港澳台频道",耀才财经 [1310ms]
 https://v3.mediacast.hk/webcast/bshdlive-pc/chunklist_w99771165.m3u8
-#EXTINF:-1 group-title="港澳台频道",韩国电影1 [183ms]
+#EXTINF:-1 group-title="港澳台频道",韩国电影1 [114ms]
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=595
-#EXTINF:-1 group-title="港澳台频道",韩国电影2 [186ms]
+#EXTINF:-1 group-title="港澳台频道",韩国电影2 [112ms]
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=743
 
 # 湖北频道
-#EXTINF:-1 group-title="湖北频道",江夏新闻综合 [727ms]
+#EXTINF:-1 group-title="湖北频道",江夏新闻综合 [772ms]
 http://59.175.226.142:280/gb28181/xwzh.m3u8?zhubd
 
 # 湖南频道
-#EXTINF:-1 group-title="湖南频道",湖南电影 [537ms]
+#EXTINF:-1 group-title="湖南频道",湖南电影 [625ms]
 http://php.jdshipin.com:8880/iptv.php
 
 # 点播电影
-#EXTINF:-1 group-title="点播电影",倩女幽魂人间道 [893ms]
+#EXTINF:-1 group-title="点播电影",倩女幽魂人间道 [991ms]
 http://jsmov2.a.yximgs.com/bs3/video-hls/5250634317044855747_hlsb.m3u8
-#EXTINF:-1 group-title="点播电影",倩女幽魂妖魔道 [923ms]
+#EXTINF:-1 group-title="点播电影",倩女幽魂妖魔道 [1113ms]
 http://jsmov2.a.yximgs.com/bs3/video-hls/5232901391302199073_hlsb.m3u8
-#EXTINF:-1 group-title="点播电影",倩女幽魂道道道 [881ms]
+#EXTINF:-1 group-title="点播电影",倩女幽魂道道道 [920ms]
 http://jsmov2.a.yximgs.com/bs3/video-hls/5216294367991385255_hlsb.m3u8
-#EXTINF:-1 group-title="点播电影",龙门飞甲 [700ms]
+#EXTINF:-1 group-title="点播电影",龙门飞甲 [1177ms]
 http://jsmov2.a.yximgs.com/bs3/video-hls/5203346449046555193_hlsb.m3u8
 
 # 生活
-#EXTINF:-1 group-title="生活",CCTV12 [161ms]
+#EXTINF:-1 group-title="生活",CCTV-12 (720p) [130ms]
 http://74.91.26.218:82/live/cctv12hd.m3u8
-#EXTINF:-1 group-title="生活",CCTV12 [460ms]
-http://124.165.251.82:85/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="生活",QTV-2 [2021ms]
+http://video10.qtv.com.cn/drm/qtv2at/manifest.m3u8
 
 # 电影
-#EXTINF:-1 group-title="电影",CHC电影 [532ms]
+#EXTINF:-1 group-title="电影",CHC电影 [594ms]
 http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=0&authid=0
-#EXTINF:-1 group-title="电影",Harbin Movie Channel [1085ms]
+#EXTINF:-1 group-title="电影",Harbin Movie Channel [1230ms]
 https://stream.hrbtv.net/yspd/playlist.m3u8
-#EXTINF:-1 group-title="电影",南宁影视娱乐 [1911ms]
-http://hls.nntv.cn/nnlive/YSYL_244.m3u8
-#EXTINF:-1 group-title="电影",浙江教科影视 [495ms]
-http://ali-m-l.cztv.com/channels/lantian/channel04/1080p.m3u8
-#EXTINF:-1 group-title="电影",浙江教科影视 [898ms]
-https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
-#EXTINF:-1 group-title="电影",浙江教科影视 [1421ms]
-http://ali-vl.cztv.com/channels/lantian/channel004/360p.m3u8
-#EXTINF:-1 group-title="电影",电影八点档 [927ms]
-http://live.metshop.top/huya/880261?cdn=alicdn
-#EXTINF:-1 group-title="电影",电影刘德华 [436ms]
-http://live.metshop.top/huya/11342424?cdn=alicdn
-#EXTINF:-1 group-title="电影",电影功夫片 [492ms]
-http://live.metshop.top/huya/11352941?cdn=alicdn
-#EXTINF:-1 group-title="电影",电影动作电影 [926ms]
-http://live.metshop.top/huya/11602077?cdn=alicdn
-#EXTINF:-1 group-title="电影",电影周星星 [739ms]
-http://live.metshop.top/huya/11336587?cdn=alicdn
-#EXTINF:-1 group-title="电影",电影喜剧专场 [1103ms]
-http://live.metshop.top/huya/11602044?cdn=alicdn
-#EXTINF:-1 group-title="电影",电影嫣然影厅 [740ms]
-http://live.metshop.top/huya/11601977?cdn=alicdn
-#EXTINF:-1 group-title="电影",电影战争片 [449ms]
-http://live.metshop.top/huya/21059574?cdn=alicdn
-#EXTINF:-1 group-title="电影",电影搞笑喜剧 [1459ms]
-http://live.metshop.top/huya/11342423?cdn=alicdn
-#EXTINF:-1 group-title="电影",电影梁家辉 [856ms]
-http://live.metshop.top/huya/11342429?cdn=alicdn
-#EXTINF:-1 group-title="电影",电影蜘蛛侠 [886ms]
-http://live.metshop.top/huya/21059599?cdn=alicdn
-#EXTINF:-1 group-title="电影",电影谍战 [663ms]
-http://live.metshop.top/huya/21059585?cdn=alicdn
-#EXTINF:-1 group-title="电影",电影谍战片 [946ms]
-http://live.metshop.top/huya/21059587?cdn=alicdn
-#EXTINF:-1 group-title="电影",电影贺岁 [683ms]
-http://live.metshop.top/huya/11601971?cdn=alicdn
-#EXTINF:-1 group-title="电影",电影高分动作 [715ms]
-http://live.metshop.top/huya/11352884?cdn=alicdn
 
 # 电视剧
-#EXTINF:-1 group-title="电视剧",与凤行 [927ms]
+#EXTINF:-1 group-title="电视剧",三国演义 [645ms]
+https://live.ottiptv.cc/huya/11602081
+#EXTINF:-1 group-title="电视剧",三国演义 [1212ms]
+https://live.metshop.top/huya/11602081
+#EXTINF:-1 group-title="电视剧",与凤行 [569ms]
 https://live.ottiptv.cc/huya/26355866
-#EXTINF:-1 group-title="电视剧",乌龙闯情关 [1187ms]
+#EXTINF:-1 group-title="电视剧",乌龙闯情关 [604ms]
 https://live.ottiptv.cc/huya/26355767
-#EXTINF:-1 group-title="电视剧",亮剑 [643ms]
+#EXTINF:-1 group-title="电视剧",亮剑 [339ms]
 https://live.ottiptv.cc/huya/30080238
-#EXTINF:-1 group-title="电视剧",仙剑奇侠传 [1158ms]
+#EXTINF:-1 group-title="电视剧",仙剑奇侠传 [949ms]
 https://live.ottiptv.cc/yy/1382749903
-#EXTINF:-1 group-title="电视剧",伪装者 [2174ms]
+#EXTINF:-1 group-title="电视剧",伪装者 [2264ms]
 https://live.ottiptv.cc/yy/1354936244
-#EXTINF:-1 group-title="电视剧",倚天屠龙记 [858ms]
-https://live.ottiptv.cc/huya/11342403
-#EXTINF:-1 group-title="电视剧",倚天屠龙记 [1036ms]
-https://live.metshop.top/huya/23734246
-#EXTINF:-1 group-title="电视剧",唐诡之西行 [1613ms]
+#EXTINF:-1 group-title="电视剧",唐诡之西行 [556ms]
 https://live.ottiptv.cc/huya/26355763
-#EXTINF:-1 group-title="电视剧",士兵突击 [864ms]
+#EXTINF:-1 group-title="电视剧",士兵突击 [377ms]
 https://live.ottiptv.cc/huya/11342430
-#EXTINF:-1 group-title="电视剧",大秦赋 [1665ms]
+#EXTINF:-1 group-title="电视剧",大秦赋 [565ms]
 https://live.ottiptv.cc/huya/23903130
-#EXTINF:-1 group-title="电视剧",如懿传 [876ms]
+#EXTINF:-1 group-title="电视剧",如懿传 [627ms]
 https://live.ottiptv.cc/huya/29465868
-#EXTINF:-1 group-title="电视剧",少年包青天第一部 [1126ms]
+#EXTINF:-1 group-title="电视剧",少年包青天第一部 [1122ms]
+https://live.ottiptv.cc/yy/1356043677
+#EXTINF:-1 group-title="电视剧",少年包青天第一部 [1267ms]
 https://live.ottiptv.cc/huya/11352958
-#EXTINF:-1 group-title="电视剧",少年包青天第三部 [1315ms]
+#EXTINF:-1 group-title="电视剧",少年包青天第三部 [1087ms]
 https://live.ottiptv.cc/yy/1382736814
-#EXTINF:-1 group-title="电视剧",少年包青天第二部 [983ms]
+#EXTINF:-1 group-title="电视剧",少年包青天第二部 [1195ms]
 https://live.ottiptv.cc/huya/11342425
-#EXTINF:-1 group-title="电视剧",庆余年 [720ms]
+#EXTINF:-1 group-title="电视剧",庆余年 [1231ms]
 https://live.ottiptv.cc/huya/11352960
-#EXTINF:-1 group-title="电视剧",康熙微服私访记 [808ms]
+#EXTINF:-1 group-title="电视剧",康熙微服私访记 [688ms]
 https://live.ottiptv.cc/huya/11342418
-#EXTINF:-1 group-title="电视剧",康熙王朝 [1018ms]
+#EXTINF:-1 group-title="电视剧",康熙王朝 [945ms]
 https://live.ottiptv.cc/huya/11352940
-#EXTINF:-1 group-title="电视剧",延禧攻略 [680ms]
+#EXTINF:-1 group-title="电视剧",延禧攻略 [477ms]
 https://live.ottiptv.cc/huya/26355864
-#EXTINF:-1 group-title="电视剧",新三国 [868ms]
+#EXTINF:-1 group-title="电视剧",新三国 [397ms]
 https://live.ottiptv.cc/huya/11352944
-#EXTINF:-1 group-title="电视剧",新三国（斗鱼） [1043ms]
+#EXTINF:-1 group-title="电视剧",新三国（斗鱼） [1010ms]
 https://live.ottiptv.cc/douyu/5908256
-#EXTINF:-1 group-title="电视剧",新水浒传 [936ms]
+#EXTINF:-1 group-title="电视剧",新水浒传 [1468ms]
 https://live.ottiptv.cc/huya/11342384
-#EXTINF:-1 group-title="电视剧",新白娘子传奇 [730ms]
+#EXTINF:-1 group-title="电视剧",新白娘子传奇 [874ms]
 https://live.ottiptv.cc/yy/1354490667
-#EXTINF:-1 group-title="电视剧",柳舟计 [1557ms]
+#EXTINF:-1 group-title="电视剧",柳舟计 [606ms]
 https://live.ottiptv.cc/huya/23860039
-#EXTINF:-1 group-title="电视剧",梦中的那片海 [1132ms]
+#EXTINF:-1 group-title="电视剧",梦中的那片海 [540ms]
 https://live.ottiptv.cc/huya/26355765
-#EXTINF:-1 group-title="电视剧",欢乐颂 [1104ms]
+#EXTINF:-1 group-title="电视剧",欢乐颂 [841ms]
 https://live.ottiptv.cc/yy/1382735624
-#EXTINF:-1 group-title="电视剧",永夜星河 [1617ms]
+#EXTINF:-1 group-title="电视剧",永夜星河 [558ms]
 https://live.ottiptv.cc/huya/23734169
-#EXTINF:-1 group-title="电视剧",流水迢迢 [1155ms]
+#EXTINF:-1 group-title="电视剧",流水迢迢 [569ms]
 https://live.ottiptv.cc/huya/23865036
-#EXTINF:-1 group-title="电视剧",爱情公寓 [726ms]
+#EXTINF:-1 group-title="电视剧",爱情公寓 [462ms]
 https://live.ottiptv.cc/huya/11336726
-#EXTINF:-1 group-title="电视剧",爱情公寓（斗鱼） [1179ms]
+#EXTINF:-1 group-title="电视剧",爱情公寓（斗鱼） [1123ms]
 https://live.ottiptv.cc/douyu/4105989
-#EXTINF:-1 group-title="电视剧",父母爱情 [1184ms]
+#EXTINF:-1 group-title="电视剧",父母爱情 [1036ms]
 https://live.ottiptv.cc/yy/1354926650
-#EXTINF:-1 group-title="电视剧",特种兵之火凤凰 [564ms]
+#EXTINF:-1 group-title="电视剧",特种兵之火凤凰 [348ms]
 https://live.ottiptv.cc/huya/29982636
-#EXTINF:-1 group-title="电视剧",玫瑰的故事 [1516ms]
+#EXTINF:-1 group-title="电视剧",玫瑰的故事 [830ms]
 https://live.ottiptv.cc/huya/23865142
-#EXTINF:-1 group-title="电视剧",神探狄仁杰第一部 [1050ms]
+#EXTINF:-1 group-title="电视剧",神探狄仁杰第一部 [1379ms]
 https://live.ottiptv.cc/yy/1354930934
-#EXTINF:-1 group-title="电视剧",神探狄仁杰第三部 [1078ms]
+#EXTINF:-1 group-title="电视剧",神探狄仁杰第三部 [1196ms]
 https://live.ottiptv.cc/douyu/6027991
-#EXTINF:-1 group-title="电视剧",神探狄仁杰第二部 [1453ms]
+#EXTINF:-1 group-title="电视剧",神探狄仁杰第二部 [981ms]
 https://live.ottiptv.cc/douyu/12655359
-#EXTINF:-1 group-title="电视剧",西游记后传 [783ms]
+#EXTINF:-1 group-title="电视剧",笑傲江湖 [359ms]
+https://live.ottiptv.cc/huya/26355790
+#EXTINF:-1 group-title="电视剧",笑傲江湖 [381ms]
+https://live.metshop.top/huya/23865142
+#EXTINF:-1 group-title="电视剧",笑傲江湖 [1164ms]
+https://live.metshop.top/huya/26355790
+#EXTINF:-1 group-title="电视剧",芈月传 [542ms]
+https://live.ottiptv.cc/huya/11352975
+#EXTINF:-1 group-title="电视剧",西游记 [783ms]
+https://live.ottiptv.cc/huya/26355861
+#EXTINF:-1 group-title="电视剧",西游记 [1429ms]
+http://live.ottiptv.cc/huya/20985836
+#EXTINF:-1 group-title="电视剧",西游记后传 [1005ms]
 https://live.ottiptv.cc/yy/1353392400
-#EXTINF:-1 group-title="电视剧",西游记续集 [1068ms]
+#EXTINF:-1 group-title="电视剧",西游记续集 [1613ms]
 https://live.ottiptv.cc/douyu/3113309
-#EXTINF:-1 group-title="电视剧",铁齿铜牙纪晓岚 [455ms]
+#EXTINF:-1 group-title="电视剧",铁齿铜牙纪晓岚 [970ms]
 https://live.ottiptv.cc/huya/11342396
-#EXTINF:-1 group-title="电视剧",陈情令 [1355ms]
+#EXTINF:-1 group-title="电视剧",陈情令 [930ms]
 https://live.ottiptv.cc/huya/29465862
-#EXTINF:-1 group-title="电视剧",隋唐英雄传 [1470ms]
+#EXTINF:-1 group-title="电视剧",隋唐英雄传 [1507ms]
 https://live.ottiptv.cc/yy/1352475619
-#EXTINF:-1 group-title="电视剧",雪豹 [946ms]
+#EXTINF:-1 group-title="电视剧",雪豹 [1263ms]
 https://live.ottiptv.cc/huya/29580970
-#EXTINF:-1 group-title="电视剧",鬼吹灯之云南虫谷 [1610ms]
+#EXTINF:-1 group-title="电视剧",鬼吹灯之云南虫谷 [834ms]
 https://live.ottiptv.cc/huya/11352898
-#EXTINF:-1 group-title="电视剧",鬼吹灯之怒晴湘西 [684ms]
+#EXTINF:-1 group-title="电视剧",鬼吹灯之怒晴湘西 [856ms]
 https://live.ottiptv.cc/huya/11602075
-#EXTINF:-1 group-title="电视剧",鬼吹灯之精绝古城 [897ms]
+#EXTINF:-1 group-title="电视剧",鬼吹灯之精绝古城 [859ms]
 https://live.ottiptv.cc/huya/11352871
-#EXTINF:-1 group-title="电视剧",鬼吹灯之龙岭迷窟 [1254ms]
+#EXTINF:-1 group-title="电视剧",鬼吹灯之龙岭迷窟 [851ms]
 https://live.ottiptv.cc/huya/29465863
 
 # 福建频道
-#EXTINF:-1 group-title="福建频道",福建海峡卫视 [1434ms]
+#EXTINF:-1 group-title="福建频道",三明新闻综合 [1294ms]
+https://ls.qingting.fm/live/5022100/64k.m3u8
+#EXTINF:-1 group-title="福建频道",三明新闻综合 [2465ms]
+http://ls.qingting.fm/live/4885.m3u8
+#EXTINF:-1 group-title="福建频道",云霄综合 [525ms]
+http://live.zzyxxw.com:85/live/xwzh.m3u8?fujian,
+#EXTINF:-1 group-title="福建频道",云霄综合 [531ms]
+http://live.zzyxxw.com:85/live/xwzh.m3u8
+#EXTINF:-1 group-title="福建频道",云霄综合 [534ms]
+http://live.zzyxxw.com:85/live/xwzh.m3u8?fujian
+#EXTINF:-1 group-title="福建频道",福州少儿 [562ms]
+http://live.zohi.tv/video/s10001-fztv-4/index.m3u8
+#EXTINF:-1 group-title="福建频道",福州生活 [666ms]
+http://live.zohi.tv:80/video/s10001-fztv-3/index.m3u8
+#EXTINF:-1 group-title="福建频道",福建海峡卫视 [1257ms]
 https://cdn16.123.rr.kg/163189/hxws
 
 # 纪录
-#EXTINF:-1 group-title="纪录",之江纪录 [543ms]
-http://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
-#EXTINF:-1 group-title="纪录",之江纪录 [727ms]
-https://ali-m-l.cztv.com/channels/lantian/channel12/720p.m3u8
-#EXTINF:-1 group-title="纪录",之江纪录 [952ms]
-https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
+#EXTINF:-1 group-title="纪录",CCTV-9 (576i) [28ms]
+https://xykt-fix.github.io/Y77.m3u8
 
 # 综合
-#EXTINF:-1 group-title="综合",Baicheng TV [Geo-blocked] [2327ms]
+#EXTINF:-1 group-title="综合",Baicheng TV [Geo-blocked] [2346ms]
 https://stream2.jlntv.cn/baicheng1/sd/live.m3u8
-#EXTINF:-1 group-title="综合",Chaozhou Public Channel [444ms]
+#EXTINF:-1 group-title="综合",Chaozhou Public Channel [1539ms]
 http://113.64.146.48:1688/hls/4/index.m3u8
-#EXTINF:-1 group-title="综合",Guangxi Variety & Travel Channel [460ms]
+#EXTINF:-1 group-title="综合",Guangxi Variety & Travel Channel [525ms]
 http://111.59.24.227:8181/tsfile/live/1001_1.m3u8?authid=0&key=txiptv&playlive=1
-#EXTINF:-1 group-title="综合",Hebei TV (2160p) [725ms]
+#EXTINF:-1 group-title="综合",Guangzhou TV [1484ms]
+https://tencentplaybusiness.gztv.com/live/zonghes.m3u8
+#EXTINF:-1 group-title="综合",Hebei TV (2160p) [823ms]
 https://event.pull.hebtv.com/live/live101.m3u8
-#EXTINF:-1 group-title="综合",Hunan Economy Channel [938ms]
+#EXTINF:-1 group-title="综合",Hunan Economy Channel [1065ms]
 https://p8.vzan.com/slowlive/415983998730568937/live.m3u8
-#EXTINF:-1 group-title="综合",Kangba TV [468ms]
+#EXTINF:-1 group-title="综合",Kangba TV [535ms]
 http://110.185.237.164:8888/hls/30/index.m3u8
-#EXTINF:-1 group-title="综合",Siping TV [638ms]
+#EXTINF:-1 group-title="综合",QTV-5 [1019ms]
+http://video10.qtv.com.cn/drm/qtv5at/manifest.m3u8
+#EXTINF:-1 group-title="综合",Siping TV [812ms]
 http://stream2.jlntv.cn/sptv/sd/live.m3u8?_upt=f27750421743154598
-#EXTINF:-1 group-title="综合",TV BRICS Chinese (1080p) [861ms]
+#EXTINF:-1 group-title="综合",TV BRICS Chinese (1080p) [1610ms]
 https://chibrics.mediacdn.ru/cdn/brics/chinese/playlist.m3u8
+#EXTINF:-1 group-title="综合",Yichang Sanxia General Channel [1324ms]
+https://liveplay.ycrmt.cn/sxgd/zhpd.m3u8
 
 # 虎牙影视
-#EXTINF:-1 group-title="虎牙影视",刘德华电影 [1687ms]
+#EXTINF:-1 group-title="虎牙影视",刘德华电影 [1076ms]
 https://live.metshop.top/huya/11342424
-#EXTINF:-1 group-title="虎牙影视",功夫电影 [814ms]
+#EXTINF:-1 group-title="虎牙影视",功夫电影 [886ms]
 https://live.metshop.top/huya/11352941
-#EXTINF:-1 group-title="虎牙影视",古天乐电影 [1729ms]
+#EXTINF:-1 group-title="虎牙影视",古天乐电影 [1512ms]
 https://live.metshop.top/huya/29982675
-#EXTINF:-1 group-title="虎牙影视",周星驰电影 [1283ms]
+#EXTINF:-1 group-title="虎牙影视",周星驰电影 [1080ms]
 https://live.metshop.top/huya/11342412
-#EXTINF:-1 group-title="虎牙影视",宇宙科幻合集 [1301ms]
+#EXTINF:-1 group-title="虎牙影视",宇宙科幻合集 [1623ms]
 https://live.metshop.top/huya/11342428
-#EXTINF:-1 group-title="虎牙影视",强森电影 [1064ms]
+#EXTINF:-1 group-title="虎牙影视",强森电影 [721ms]
 https://live.metshop.top/huya/21059581
-#EXTINF:-1 group-title="虎牙影视",怪兽电影 [744ms]
+#EXTINF:-1 group-title="虎牙影视",怪兽电影 [886ms]
 https://live.metshop.top/huya/21059577
-#EXTINF:-1 group-title="虎牙影视",成龙电影 [1589ms]
+#EXTINF:-1 group-title="虎牙影视",成龙电影 [1167ms]
 https://live.metshop.top/huya/11342386
-#EXTINF:-1 group-title="虎牙影视",战争电影 [1195ms]
+#EXTINF:-1 group-title="虎牙影视",战争电影 [944ms]
 https://live.metshop.top/huya/21059574
-#EXTINF:-1 group-title="虎牙影视",末日电影合集 [1253ms]
+#EXTINF:-1 group-title="虎牙影视",末日电影合集 [1001ms]
 https://live.ottiptv.cc/yy/1354889019
-#EXTINF:-1 group-title="虎牙影视",李连杰电影 [788ms]
+#EXTINF:-1 group-title="虎牙影视",李连杰电影 [1050ms]
 https://live.metshop.top/huya/11342390
-#EXTINF:-1 group-title="虎牙影视",林正英电影 [1071ms]
+#EXTINF:-1 group-title="虎牙影视",林正英电影 [1222ms]
 https://live.metshop.top/huya/11342421
-#EXTINF:-1 group-title="虎牙影视",枪战电影 [968ms]
+#EXTINF:-1 group-title="虎牙影视",枪战电影 [1327ms]
 https://live.metshop.top/huya/21059579
-#EXTINF:-1 group-title="虎牙影视",武侠电影 [721ms]
+#EXTINF:-1 group-title="虎牙影视",武侠电影 [1174ms]
 https://live.metshop.top/huya/11342427
-#EXTINF:-1 group-title="虎牙影视",沈腾电影 [1305ms]
+#EXTINF:-1 group-title="虎牙影视",沈腾电影 [1344ms]
 https://live.metshop.top/huya/11601968
-#EXTINF:-1 group-title="虎牙影视",狄仁杰电影 [676ms]
+#EXTINF:-1 group-title="虎牙影视",狄仁杰电影 [1272ms]
 https://live.metshop.top/huya/30080229
-#EXTINF:-1 group-title="虎牙影视",玄幻电影 [1065ms]
+#EXTINF:-1 group-title="虎牙影视",玄幻电影 [899ms]
 https://live.metshop.top/huya/11342414
-#EXTINF:-1 group-title="虎牙影视",王晶电影 [2429ms]
+#EXTINF:-1 group-title="虎牙影视",王晶电影 [849ms]
 https://live.metshop.top/huya/11602058
-#EXTINF:-1 group-title="虎牙影视",甄子丹电影 [1503ms]
+#EXTINF:-1 group-title="虎牙影视",甄子丹电影 [1203ms]
 https://live.metshop.top/huya/11352935
-#EXTINF:-1 group-title="虎牙影视",罪犯电影 [1187ms]
+#EXTINF:-1 group-title="虎牙影视",罪犯电影 [1530ms]
 https://live.metshop.top/huya/11352962
-#EXTINF:-1 group-title="虎牙影视",谍战电影 [873ms]
+#EXTINF:-1 group-title="虎牙影视",谍战电影 [1329ms]
 https://live.metshop.top/huya/21059585
-#EXTINF:-1 group-title="虎牙影视",贺岁电影 [991ms]
+#EXTINF:-1 group-title="虎牙影视",贺岁电影 [1188ms]
 https://live.metshop.top/huya/11601986
-#EXTINF:-1 group-title="虎牙影视",金庸武侠 [810ms]
+#EXTINF:-1 group-title="虎牙影视",金庸武侠 [2102ms]
 https://live.metshop.top/huya/11342435
-#EXTINF:-1 group-title="虎牙影视",黄渤电影 [1022ms]
+#EXTINF:-1 group-title="虎牙影视",黄渤电影 [1038ms]
 https://live.metshop.top/huya/11352876
 
 # 辽宁频道
-#EXTINF:-1 group-title="辽宁频道",朝阳新闻综合 [561ms]
-http://120.76.248.139/live/bfgd/4200000282.m3u8
-#EXTINF:-1 group-title="辽宁频道",辽宁公共 [427ms]
-http://120.76.248.139/live/bfgd/4200000481.m3u8
-#EXTINF:-1 group-title="辽宁频道",辽宁公共 [550ms]
-http://120.76.248.139/live/bfgd/4200000077.m3u8
-#EXTINF:-1 group-title="辽宁频道",辽宁影视剧 [432ms]
-http://120.76.248.139/live/bfgd/4200000070.m3u8
-#EXTINF:-1 group-title="辽宁频道",辽宁教育青少 [546ms]
-http://120.76.248.139/live/bfgd/4200000075.m3u8
-#EXTINF:-1 group-title="辽宁频道",辽宁生活 [440ms]
-http://120.76.248.139/live/bfgd/4200000073.m3u8
-#EXTINF:-1 group-title="辽宁频道",辽宁经济 [547ms]
-http://120.76.248.139/live/bfgd/4200000480.m3u8
-#EXTINF:-1 group-title="辽宁频道",辽宁经济 [560ms]
-http://120.76.248.139/live/bfgd/4200000076.m3u8
+#EXTINF:-1 group-title="辽宁频道",辽宁都市 [639ms]
+https://ls.qingting.fm/live/1099/64k.m3u8
 
-# 陕西频道
-#EXTINF:-1 group-title="陕西频道",长影频道 [4659ms]
-http://tpc.x3322.net:9901/tsfile/live/1010_1.m3u8
+# 青海频道
+#EXTINF:-1 group-title="青海频道",安多卫视 [1263ms]
+https://liveout.xntv.tv/a65jur/96iln2.m3u8
+#EXTINF:-1 group-title="青海频道",西宁新闻综合 [1185ms]
+https://liveout.xntv.tv/a65jur/96iln2.m3u8?zqinghd
 
 # 音乐
-#EXTINF:-1 group-title="音乐",AMC音乐 [412ms]
+#EXTINF:-1 group-title="音乐",AMC音乐 [432ms]
 https://AMChls.wns.live/hls/stream.m3u8
-#EXTINF:-1 group-title="音乐",音乐欣赏 [323ms]
+#EXTINF:-1 group-title="音乐",音乐欣赏 [386ms]
 http://61.221.215.25:8800/hls/49/index.m3u8
-#EXTINF:-1 group-title="音乐",音乐现场 [1088ms]
-https://satellitepull.cnr.cn/live/wx32nmgyygb/playlist.m3u8
 
 # 黑龙江频道
-#EXTINF:-1 group-title="黑龙江频道",七台河新闻综合 [2016ms]
+#EXTINF:-1 group-title="黑龙江频道",七台河新闻综合 [2164ms]
 http://live.qthnews.org.cn:1935/live/live1/800k/tzwj_video.m3u8
-#EXTINF:-1 group-title="黑龙江频道",哈尔滨娱乐 [514ms]
+#EXTINF:-1 group-title="黑龙江频道",哈尔滨娱乐 [654ms]
 http://stream.hrbtv.net/ylpd/sd/live.m3u8?zheild
-#EXTINF:-1 group-title="黑龙江频道",哈尔滨娱乐 [1086ms]
+#EXTINF:-1 group-title="黑龙江频道",哈尔滨娱乐 [1231ms]
 https://stream.hrbtv.net/ylpd/sd/live.m3u8
-#EXTINF:-1 group-title="黑龙江频道",哈尔滨影视 [504ms]
+#EXTINF:-1 group-title="黑龙江频道",哈尔滨影视 [656ms]
 http://stream.hrbtv.net/yspd/sd/live.m3u8?zheild
-#EXTINF:-1 group-title="黑龙江频道",哈尔滨新闻综合 [572ms]
+#EXTINF:-1 group-title="黑龙江频道",哈尔滨新闻综合 [666ms]
 http://stream.hrbtv.net/xwzh/sd/live.m3u8?zheild
-#EXTINF:-1 group-title="黑龙江频道",哈尔滨生活 [514ms]
+#EXTINF:-1 group-title="黑龙江频道",哈尔滨生活 [634ms]
 http://stream.hrbtv.net/shpd/sd/live.m3u8?zheild
-#EXTINF:-1 group-title="黑龙江频道",哈尔滨都市咨询 [535ms]
+#EXTINF:-1 group-title="黑龙江频道",哈尔滨都市咨询 [646ms]
 http://stream.hrbtv.net/zxpd/sd/live.m3u8?zheild
+#EXTINF:-1 group-title="黑龙江频道",黑龙江少儿 [428ms]
+https://ls.qingting.fm/live/4972/64k.m3u8
 
 # 🌊港澳台
-#EXTINF:-1 group-title="🌊港澳台",凤凰香港 [172ms]
-https://epg.pw/stream/5f16dc7fc8aaaed3205516c63e4a8c24bca9dbba1181684244729cf574505b0e.m3u8
-#EXTINF:-1 group-title="🌊港澳台",凤凰香港 [247ms]
-http://r.jdshipin.com/yDoTN
-#EXTINF:-1 group-title="🌊港澳台",凤凰香港 [256ms]
-http://r.jdshipin.com/NfC0f
+#EXTINF:-1 group-title="🌊港澳台",纬来体育 [127ms]
+https://epg.pw/stream/ab6df63b64d0cc44a1f4f029ed847a26fa54a7aebd455578fb05a63f02c22f4b.m3u8
+#EXTINF:-1 group-title="🌊港澳台",纬来体育 [196ms]
+https://epg.pw/stream/8855a9936e37e608a0ec8a014cce1673dee9c5d68d560da376cc92e5edef2b25.m3u8
+#EXTINF:-1 group-title="🌊港澳台",纬来体育 [225ms]
+https://epg.pw/stream/4f18dfe0593db5c686eb64ae8edaf2a9202d4d46bdc9bbde2cee27708e12ea01.m3u8
 
 # 🎬电影频道
-#EXTINF:-1 group-title="🎬电影频道",经典电影 [1093ms]
+#EXTINF:-1 group-title="🎬电影频道",经典电影 [962ms]
 https://goodiptv.club/douyu/6091425
 
+# 🏀体育频道
+#EXTINF:-1 group-title="🏀体育频道",精品体育 [114ms]
+https://epg.pw/stream/866a097a0907c9832440f8df38272dd555abf05200dfbafcc137e214c9b30ca7.m3u8
+#EXTINF:-1 group-title="🏀体育频道",精品体育 [122ms]
+https://epg.pw/stream/94ed0232b61ce8d89883160a4cdfbfc8f3225cae70ef8e17d93eec249a3c8ad6.m3u8
+#EXTINF:-1 group-title="🏀体育频道",精品体育 [123ms]
+https://epg.pw/stream/f7556eccd4ae06b0c2991fdc7a4f8388496559f728cc82459a8e50346040e226.m3u8
+#EXTINF:-1 group-title="🏀体育频道",足球频道 [118ms]
+https://epg.pw/stream/c7df950876e6a1ceb8be74ee86f9f702cebbbae29f1d15124ef8f86fd43161cf.m3u8
+
 # 🏛经典剧场
-#EXTINF:-1 group-title="🏛经典剧场",三国演义 [859ms]
-https://live.metshop.top/huya/11602081
-#EXTINF:-1 group-title="🏛经典剧场",三国演义 [923ms]
-https://live.ottiptv.cc/huya/11602081
-#EXTINF:-1 group-title="🏛经典剧场",射雕英雄传 [679ms]
-https://live.ottiptv.cc/huya/23824164
-#EXTINF:-1 group-title="🏛经典剧场",射雕英雄传 [1200ms]
-https://live.metshop.top/huya/23824164
-#EXTINF:-1 group-title="🏛经典剧场",水浒传 [899ms]
-http://live.ottiptv.cc/huya/26355860
-#EXTINF:-1 group-title="🏛经典剧场",水浒传 [1082ms]
+#EXTINF:-1 group-title="🏛经典剧场",封神榜 [700ms]
+https://live.ottiptv.cc/huya/29465849
+#EXTINF:-1 group-title="🏛经典剧场",封神榜 [2127ms]
+https://live.metshop.top/huya/29465849
+#EXTINF:-1 group-title="🏛经典剧场",水浒传 [830ms]
 https://live.ottiptv.cc/yy/1353873252
-#EXTINF:-1 group-title="🏛经典剧场",西游记 [999ms]
-http://live.ottiptv.cc/huya/20985836
-#EXTINF:-1 group-title="🏛经典剧场",西游记 [1185ms]
-https://live.ottiptv.cc/huya/26355861
+#EXTINF:-1 group-title="🏛经典剧场",水浒传 [898ms]
+http://live.ottiptv.cc/huya/26355860
 
 # 💰央视付费频道
-#EXTINF:-1 group-title="💰央视付费频道",央视台球 [174ms]
-https://epg.pw/stream/ca9c1cd4b97fb824cedd7fedfd0c7a950afdd7f00751cfbb7c2d89831d7746a5.m3u8
-#EXTINF:-1 group-title="💰央视付费频道",央视台球 [181ms]
+#EXTINF:-1 group-title="💰央视付费频道",央视台球 [108ms]
 https://epg.pw/stream/25677ac2e8c1f7c3dd6359c43eb5f0f54efb3f5c11f9dda18d01b3e0308ed017.m3u8
+#EXTINF:-1 group-title="💰央视付费频道",央视台球 [114ms]
+https://epg.pw/stream/ca9c1cd4b97fb824cedd7fedfd0c7a950afdd7f00751cfbb7c2d89831d7746a5.m3u8
 
 # 📡卫视频道
-#EXTINF:-1 group-title="📡卫视频道",广西卫视 [326ms]
-https://hlscdn.liangtv.cn/live/de0f97348eb84f62aa6b7d8cf0430770/dd505d87880c478f901f38560ca4d4e6.m3u8
-#EXTINF:-1 group-title="📡卫视频道",广西卫视 [419ms]
+#EXTINF:-1 group-title="📡卫视频道",东南卫视 [3929ms]
+http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
+#EXTINF:-1 group-title="📡卫视频道",广西卫视 [272ms]
 https://hlscdn.liangtv.cn/live/0c4ef3a44b934cacb8b47121dfada66c/d7e04258157b480dae53883cc6f8123b.m3u8
+#EXTINF:-1 group-title="📡卫视频道",广西卫视 [324ms]
+https://hlscdn.liangtv.cn/live/de0f97348eb84f62aa6b7d8cf0430770/dd505d87880c478f901f38560ca4d4e6.m3u8
+#EXTINF:-1 group-title="📡卫视频道",浙江卫视 [1058ms]
+http://ali-xwl.cztv.com/live/channel01720Plxw.m3u8
+#EXTINF:-1 group-title="📡卫视频道",浙江卫视 [1108ms]
+http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
+#EXTINF:-1 group-title="📡卫视频道",浙江卫视 [3259ms]
+http://ali-xwl.cztv.com/live/channel011080Plxw.m3u8
 
 # 📺央视频道
-#EXTINF:-1 group-title="📺央视频道",CCTV-14 [918ms]
+#EXTINF:-1 group-title="📺央视频道",CCTV-13 [844ms]
+https://event.pull.hebtv.com/jishi/cp1.m3u8
+#EXTINF:-1 group-title="📺央视频道",CCTV-14 [1012ms]
 https://event.pull.hebtv.com/jishi/cp2.m3u8
 
 # 🪁动画频道
-#EXTINF:-1 group-title="🪁动画频道",七龙珠 [923ms]
+#EXTINF:-1 group-title="🪁动画频道",七龙珠 [1391ms]
 https://live.metshop.top/huya/11601966
-#EXTINF:-1 group-title="🪁动画频道",七龙珠 [1498ms]
+#EXTINF:-1 group-title="🪁动画频道",七龙珠 [1645ms]
 https://live.ottiptv.cc/huya/11601966
-#EXTINF:-1 group-title="🪁动画频道",中华小当家 [661ms]
-https://live.metshop.top/huya/11342413
-#EXTINF:-1 group-title="🪁动画频道",中华小当家 [736ms]
-https://live.ottiptv.cc/huya/11342413
-#EXTINF:-1 group-title="🪁动画频道",海绵宝宝 [954ms]
+#EXTINF:-1 group-title="🪁动画频道",海绵宝宝 [1181ms]
 https://live.metshop.top/douyu/3949681
-#EXTINF:-1 group-title="🪁动画频道",漫画解说 [2383ms]
-https://www.goodiptv.club/douyu/5907076
-#EXTINF:-1 group-title="🪁动画频道",猫和老鼠 [908ms]
+#EXTINF:-1 group-title="🪁动画频道",猫和老鼠 [993ms]
 https://live.metshop.top/huya/11352879
-#EXTINF:-1 group-title="🪁动画频道",猫和老鼠 [1677ms]
+#EXTINF:-1 group-title="🪁动画频道",猫和老鼠 [1461ms]
 https://live.ottiptv.cc/huya/11352879
